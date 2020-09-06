@@ -284,6 +284,7 @@ def sqrt(x: Double): Double = {
 - `def f(x1,...,xn)= B; ... f(v1, ..., vn)`
 - ==> `def f(x1,...,xn)= B; ... [v1/x1, ..., vn/xn]B`
 - `[v1/x1, ..., vn/xn]B` refers to the expresion, B, wherein all occurences of xi have been replaced by vi
+    - this notation is called **substitution**
 
 [JVM Stacks and Stack Frames](http://alvinalexander.com/scala/fp-book/recursion-jvm-stacks-stack-frames/)
 - **Stack definition:** Each JVM thread has a private Java virtual machine stack, created at the same time as the thread. A JVM stack stores frames, also called “stack frames”...it holds local variables and partial results, and plays a part in method invocation and return
@@ -295,11 +296,31 @@ def sqrt(x: Double): Double = {
 [Tail Recursion](https://alvinalexander.com/scala/fp-book/tail-recursive-algorithms/)
 - A tail-recursive function is just a function whose very last action is a call to itself (or another function)
 - "When you write your recursive function in this way, the Scala compiler can optimize the resulting JVM bytecode so that the function requires only one stack frame — as opposed to one stack frame for each level of recursion!"
-- Reuses stack frame, avoids deep recursive chains
+- Reuses stack frame, avoids stack overflow in functions susceptible to deep recursive chains
+    - equivalent to a **loop** in an imperative program
+    - remember to avoid premature optimization 
+- Pattern to make recursive function tail-recursive:
+    - nest original function in a new function
+    - insert "accumulator" object into super function 
+    - modify the nested function to utilize accumulator 
+- A way to prove that sum isn’t tail-recursive is to tag the function with a Scala annotation named @tailrec. This annotation won’t compile unless the function is tail-recursive.
 
-**Consider Sum of an Array**
+
+**Consider GCD**
 ```
+def gcd(a: Int, b: Int): Int = {
 
+    if (b==0) a else gcd(b, a % b)
+}
+
+// note the interchangeing of arguments a and b, and the fact that the final action is a call to itself
+
+gcd(14, 21) ==>
+gcd(21,14)
+gcd(14,7)
+gcd(7,7)
+gcd(7,0)
+7
 ```
 
 **Consider Factorial**
@@ -308,8 +329,13 @@ def factorial_nonTR(n: Int) : Int = {
     if (n == 0) 1 else n*factorial_nonTR(n-1)
 }
 
-def factorial_TR(n: Int) : Int = {
-    if (n == 0) 1 else n*factorial_nonTR(n-1)
+def factorial(n: Int) : Int = {
+
+    def factorial_Acc(n:Int, acc:Int): Int = {
+        if (n==0) acc*1 else factorial_Acc(n-1, n*acc)
+    }
+
+    factorial_Acc(n, 1)
 }
 
 
