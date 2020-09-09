@@ -125,4 +125,36 @@ def product(f: Int => Int)(a: Int, b: Int): Int = {
 **Lecture 2.3: Finding Fixed Points:**
 #### ========================
  
+A number x is called a **Fixed point** of a function if f(x) = x
+- for some functions, we can locatie the fixed points by iteratively applying f to a given initial estimate, x
+- x, f(x), f(f(x)),... until the values does not vary anymore, given some epsilon
+
+**Recall square root**
+- sqrt(x) is the fixed point of the function, `f(y) = x/y == y`
+- suggests we can calculate sqrt(x) by iteration towards fixed point 
+- **unfortunately**, this does not converge
+- **one solution: Average Damping** --> `f(y) => (y+x/y)/2` 
+  
+**Notes on root finding methods (Fixed point iteration)**
+- https://briangordon.github.io/2014/06/sqrts-and-fixed-points.html
+- https://www.lvguowei.me/post/sicp-goodness-sqrt/
+- https://medium.com/@JosephJnk/an-introduction-to-function-fixed-points-with-the-y-combinator-e7bd4d00fb62
+- https://www.kimsereylam.com/racket/lisp/2019/02/22/fixed-point-and-newton-method.html
+
+**Previously,** we saw that the expressive power of a language increases if we can pass **functions as arguments**
+- also the case for **functions that return functions**
+- note that the technique of **stabalizing by averaging** is general enough to be abstracted into its own function 
+- `def averageDamp(f: Double => Double)(x: Double) = { (x + f(x))/2 }`
+- This takes a function as an input, and returns a function as an output
+
+
+#### ========================
+**Lecture 2.4: Scala Syntax Summary**
+#### ========================
+
+
+
+
+
+
 
