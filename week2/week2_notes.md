@@ -178,17 +178,81 @@ A number x is called a **Fixed point** of a function if f(x) = x
 
 Ways to use functions to compose and abstract data: introducing **objects and classes**
 
-**COnsider a class for rational numbers**
+**Consider a class for rational numbers**
 ```
 class Rational(x: Int, y: Int) {
-    def numer = x
-    def denom = y 
+    require(y != 0, "denominator must be non-zero")
+
+    def this(x: Int) = this(x, 1)
+
+    private def gcd(a: Int, b: Int): Int = {
+        if (b==0) a else gcd(b, a%b)
+    }
+    private val g = gcd(x,y)
+
+    def numer = x/g
+    def denom = y/g
+
+    def add(that:Rational) = {
+        new Rational(
+            numer * that.denom + that.numer * denom, 
+            denom * that.denom)
+        }
+    def less(that:Rational) = {
+        numer * that.denom < that.numer * denom
+    }
+    def max(that:Rational) = {
+        if (this.less(that)) that else this
+    }
 }
 ```
 This definition introduces **Two new entities**
 - a new **Type** called Rational
 - a new **constructor** called Rational, to create elements of this type 
 - note that Scala keeps different names for types and values in different **namespaces**, no conflict 
+
+**Objects**
+- a **type** is a set of values
+- elements of a class type are **objects**
+- `val x = new Rational(1,2)` is an object
+- **Members of an object**:
+  - `x.numer` and `x.denom`
+- **Methods**
+  - **functions** that are packaged into classes
+
+#### ========================
+**Lecture 2.6: More Fun with Rationals**
+#### ========================
+
+Previous example of `Rational` class did not have a method to simplify the results from the `add` method
+- we could call a simplify method after any addition operation
+- a better alternative, because it does not necessitate coupling the add method with a simplify whenever the first is called, is to simply simplify the representation of the class when object is constructed 
+- Note that in the implementation above `gdc()` is defined as a **private** method, indicating that clients of class, Rational, will not be able to acess this method.  
+- not that on the inside of a class, **this** represent the object on which the current method is executed. Note that members of a class can also be referencesd with `this.` prefix
+
+**How to prevent users from instantiating irrational numbers, like 1/0**
+- note the **Require** predefined function
+- if not fulfilled, scala will throw `IllegalArgumentException`
+- besides `require` there is also **assert**
+```
+    val x = sqrt(y)
+    assert(x>=0)
+```
+- like `require`, a failing `assert` also throws a an exception, a `AssertionError`
+- **difference in intent:** require is a precondition, and assert is a check on the code of the function itself. 
+
+**Constructors**
+- a class implicits introduces a constructor called the **primary constructor**, which:
+  - takes paramters of class 
+  - executes all statements in class body 
+- Scala can include **multiple constructors** for a class
+  - note `def this(x: Int) = this(x, 1)` above
+  - This represents an alternative constructor, which is **utilitzed when an instance of Rational is constructed with only one argument, x**
+
+
+#### ========================
+**Lecture 2.7: Evaluation and Operators**
+#### ========================
 
 
 
