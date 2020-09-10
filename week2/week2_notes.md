@@ -141,6 +141,10 @@ A number x is called a **Fixed point** of a function if f(x) = x
 - https://medium.com/@JosephJnk/an-introduction-to-function-fixed-points-with-the-y-combinator-e7bd4d00fb62
 - https://www.kimsereylam.com/racket/lisp/2019/02/22/fixed-point-and-newton-method.html
 
+**Iterative Fixed Point Estimate of Square Root Using "Damping"**
+- Note the use of **currying** and **higher order functions**
+
+
 **Previously,** we saw that the expressive power of a language increases if we can pass **functions as arguments**
 - also the case for **functions that return functions**
 - note that the technique of **stabalizing by averaging** is general enough to be abstracted into its own function 
@@ -152,8 +156,39 @@ A number x is called a **Fixed point** of a function if f(x) = x
 **Lecture 2.4: Scala Syntax Summary**
 #### ========================
 
+**Context Free syntax: Extended Backus-Naur Form (EBNF)**:
+- add links
+
+**Types:**
+- can be numeric, boolean, string, function, and others 
+**Expressions**
+- identifier, literal, function application, operator application, selection, conditional expr, a block, or an anonymous function
+**Definitions**
+- a function def
+- a value def 
+- a **parameter** can be 
+  - call by value 
+  - call by name 
+**attempt, then go back to video for examples**
 
 
+#### ========================
+**Lecture 2.5: Functions and Data**
+#### ========================
+
+Ways to use functions to compose and abstract data: introducing **objects and classes**
+
+**COnsider a class for rational numbers**
+```
+class Rational(x: Int, y: Int) {
+    def numer = x
+    def denom = y 
+}
+```
+This definition introduces **Two new entities**
+- a new **Type** called Rational
+- a new **constructor** called Rational, to create elements of this type 
+- note that Scala keeps different names for types and values in different **namespaces**, no conflict 
 
 
 
