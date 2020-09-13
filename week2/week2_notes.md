@@ -254,6 +254,20 @@ Previous example of `Rational` class did not have a method to simplify the resul
 **Lecture 2.7: Evaluation and Operators**
 #### ========================
 
+previously defined the meaning of a function application using a **substitution** based computation model, now we extend this model to **classes and objects**
+- how is an instantiation of the class `new C(e1,...,em)` evaluated?
+- the expression args, `e1,...,em` are evaluated first
+
+Given, 
+```class C(x1,...,xm) {
+  def f(y1,...,yn = b)
+}
+```
+how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?
+- first, the arguments of `f` are substituted
+- then, the arguments of the instantation of C are evaluated
+- finally, the reference, `this`, in the function call, `f`, is replaced with the newly instantiated object
+- note that evaluation happens in the order of **1) method parameters 2) class arguments 3) class reference in method**
 
 
 
