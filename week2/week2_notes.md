@@ -198,6 +198,14 @@ class Rational(x: Int, y: Int) {
             numer * that.denom + that.numer * denom, 
             denom * that.denom)
         }
+
+    // alternative to the above, using symbolic identfier
+    def + (that:Rational) = {
+        new Rational(
+            numer * that.denom + that.numer * denom, 
+            denom * that.denom)
+        }
+
     def less(that:Rational) = {
         numer * that.denom < that.numer * denom
     }
@@ -267,7 +275,25 @@ how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?
 - first, the arguments of `f` are substituted
 - then, the arguments of the instantation of C are evaluated
 - finally, the reference, `this`, in the function call, `f`, is replaced with the newly instantiated object
+- resulting in the evaluated version of `f(w1,...,wm)`, with any inner references to the class instance attributes also evaluated
 - note that evaluation happens in the order of **1) method parameters 2) class arguments 3) class reference in method**
 
+**Infix Notation**
+- Scala supports infix notation
+- Any mehtod with a parameter can be used lie an infix operator
+- `r add s` == `r.add(s)`
 
+**Relaxed Identifiers**
+- Scala supports both **alphanumeric** and **symbolic** identifiers ("+?%&" for example)
+
+
+#### ========================
+**Assignment 2**
+#### ========================
+
+In this assignment, you will work with a functional representation of sets based on the mathematical notion of characteristic functions. The goal is to gain practice with higher-order functions.
+
+**Problem 1**
+- Characteristic function of a set, used to **Define the set** 
+- `type` alias: `type Row = List[Int]`
 
