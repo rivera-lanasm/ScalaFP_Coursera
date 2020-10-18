@@ -8,20 +8,32 @@ FP languages treat functions as **first class** values
 - function can be passed as a parameter and returned as a result
 - **higher order functions** take other functions as parameters or return functions as results, as opposed to **first order functions**
 
-There are many variations of the pattern, $\sum_{x=1}^n f(x)$, can we generalize using programming as well?
-- using higher order function
+There are many variations of the pattern, $\sum_{x=1}^n f(x)$, and we generalize this pattern using higher order functions
 - nest the f(x) from above, as a parameter, into a general sum function 
+- Function below takes **sum of f(x), from a to b**
+- Function takes as input: a function, and limits a and b
    ```
    def sum(f: Int => Int, a: Int, b:Int): Int = {
        if (a>b) 0 else f(a) + sum(f,a+1, b)}
+
+   def cube(x:Int): Int = {
+     x*x*x }
+
+   def sumCubes(a: Int, b: Int):Int = {
+     sum(cube, a, b)
+   }
    ```
 - where `f(a)` is a custom function, like factorial or cube
  
 Note the use of **function type** in the above function, `f: A => B`
 - Indicates that f(x) takes in a value of type A and returns a value of type B
- 
-Getting around writing separate auxillary functions to pass as `f(x)` -> **Anonymous Functions**
-- Think about passing strings to functions, like print...we do not need to define a values prior to passing to print()
+
+##### ===================================
+
+**Anonymous Functions**
+- Getting around writing separate auxillary functions to pass as `f(x)` to a function like `sum`.
+
+Think about passing strings to functions, like print...we do not need to define a values prior to passing to print()
 - because strings exist as **literals**...analogously, we would like **function literals**, which let us write a function without giving it a name
  
    ```
