@@ -7,8 +7,8 @@
 FP languages treat functions as **first class** values
 - function can be passed as a parameter and returned as a result
 - **higher order functions** take other functions as parameters or return functions as results, as opposed to **first order functions**
- 
-There are many variations of the pattern, $\textstyle\sum_{x=1}^nf(x)$, can we generalize using programming as well?
+
+There are many variations of the pattern, $\sum_{x=1}^n f(x)$, can we generalize using programming as well?
 - using higher order function
 - nest the f(x) from above, as a parameter, into a general sum function 
    ```
