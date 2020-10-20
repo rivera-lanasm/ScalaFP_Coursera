@@ -33,21 +33,22 @@ Note the use of **function type** in the above function, `f: A => B`
 **Anonymous Functions**
 - Getting around writing separate auxillary functions to pass as `f(x)` to a function like `sum`.
 
-Think about passing strings to functions, like print...we do not need to define a values prior to passing to print()
+Think about passing strings to functions, like print...we do not need to define a str value prior to passing to print()
 - because strings exist as **literals**...analogously, we would like **function literals**, which let us write a function without giving it a name
  
    ```
+   # anonymous function syntax
    (x: Int) => x*x*x
    ```
-- `(x:Int)` is the parameter, and `x*x*x` is the body
+- `(x:Int)`, lhs, is the parameter, and `x*x*x`,rhs, is the body
+- Define sumInts and sumCubes using anonymous function
    ```
    def sumInts(a: Int, b:Int)= sum(x=>x, a, b)
    def sumCubes(a: Int, b:Int)= sum(x:Int =>x*x*x, a, b)
    ```
  
 **Exercise: Write tail recursve version of sum**
- 
-```
+ ```
 def sum(f: Int => Int, a: Int, b: Int): Int = {
  
  def loop(a: Int, acc: Int): Int = {
@@ -62,10 +63,11 @@ def sum(f: Int => Int, a: Int, b: Int): Int = {
 #### ========================
  
 Special form for writing higher-order functions: **Currying**
+
 - recall, the summation function from above wherein the first parameter represents the f(x)
  ```
  def sumInts(a: Int, b: Int) = {
-   sum(x => x*x, a, b)
+   sum(x => x, a, b)
  }
  ```
 - notice that a and b get passed **unchanged** to sum()
@@ -75,7 +77,7 @@ Special form for writing higher-order functions: **Currying**
 def sum(f: Int => Int): (Int, Int) => Int = {
    def sumF(a: Int, b: Int): Int = {
        if (a>b) 0
-       else f(a) + sumF(a + 1, b)
+       else f(a) + sum(f)(a + 1, b)
    }
   
    sumF
@@ -94,94 +96,129 @@ def sum(f: Int => Int)(a: Int, b: Int): Int = {
    if (a>b) 0 else f(a) + sum(f)(a+1,b)
 }
 ```
-- notice how in the **recursive** call, `sum` is called with **two sets of parameter lists**
- 
-**Expand multiple parameter lists**
-- `def f(args,1)...(args,n-1) = E` is equivalent to a function with **no paramter list**, but equal to **n nested anonymous functions**
-- `def f = (args,1 => (args,2 => ...(args,n => E)...))`
- 
- 
+- notice how in the **recursive** call, `sum` is called with **two sets of parameter lists** 
+
+**Currying**
+- **Functions with multiple, n, parameter lists** are equivalent to a function with no parameter list, but whose body consists of n nested anonymous functions
+- This style of definition and function application where every function is mapped to an expression consisting of anonymous functions.
+
+Note that functional types **associate to the right**
+- Int => Int => Int == Int => (Int => Int)
+
+##### ===================================
+
 **Exercise: Write a product function that calculates the product of the values of a function from the points on a given interval**
+
 ```
+// Not tail recursive!
 def product(f: Int => Int)(a: Int, b: Int): Int = {
    if (a>b) 1
    else f(a) * product(f)(a+1,b)
 }
 ```
+
 **Exercise: Write factorial in terms of product()**
 ```
-def fact(n:Int):Int = {
- 
-   if (n==1) 1
-   else product(x=>x)(1,n)
+def fact(n: Int):Int = {
+  if (n==1) 1 
+  else product(x: Int => x)(1,n)
 }
 ```
+
 **Exercise: Generalize sum() and product(): mapReduce()**
 ```
+// here, combine is like the reducer
+// f is like the map function 
+
 def mapReduce(f: Int => Int, combine: (Int, Int) => Int, zero:Int)(a: Int, b: Int): Int = {
    if (a>b) zero
    else combine( f(a),mapReduce(f, combine, zero)(a+1,b))
 }
  
 // Redefine product()
- 
 def product(f: Int => Int)(a: Int, b: Int): Int = {
    mapReduce(f, (x,y) => x*y, 1)(a,b)
 }
  
+// Redefine sum()
+def sum(f: Int => Int)(a: Int, b: Int): Int = {
+  mapReduce(f, (x,y) => x+1, 0)(a,b)
+}
+
 ```
-- combine parameter defined how values are combined in the recursive call
-- zero paramter defines what value to return in the degenerate case, when the interval is 0
+- `combine` parameter defines how values are combined or reduced in the recursive call
+- `zero` paramter defines what value to return in the degenerate case, when the interval is 0
  
 #### ========================
 **Lecture 2.3: Finding Fixed Points:**
 #### ========================
  
 A number x is called a **Fixed point** of a function if f(x) = x
-- for some functions, we can locatie the fixed points by iteratively applying f to a given initial estimate, x
+- for **some functions**, we can locate the fixed points by iteratively applying f to a given initial estimate, x
 - x, f(x), f(f(x)),... until the values does not vary anymore, given some epsilon
+
+**Iterative Fixed Point Estimate of Square Root Using "Damping"**
+- Note the use of **currying** and **higher order functions**
+
+```
+val tolerance = 0.0001
+
+def isCloseEnought(x: Double, y: Double) = {
+  abs( (x-y)/x ) / x < tolerance
+}
+
+def fixedPoint(f: Double => Double)(firstGuess: Double) = {
+
+  def iterate(guess: Double): Double = {
+    val next = f(guess)
+    if (isCloseEnough(guess, next)) next 
+    else iterate(next)
+  }
+
+  iterate(firstGuess)
+}
+
+```
+
+**Previously,** we saw that the expressive power of a language increases if we can pass **functions as arguments**
+- also the case for **functions that return functions**
 
 **Recall square root**
 - sqrt(x) is the fixed point of the function, `f(y) = x/y == y`
-- suggests we can calculate sqrt(x) by iteration towards fixed point 
+  - `y => x / y`
+- suggests we can calculate sqrt(x) by iteration towards fixed point
+  ```
+  def sqrt(x: Double) = {
+    fixedPoint(y => x/y)(1.0)
+  }
+  ```
 - **unfortunately**, this does not converge
-- **one solution: Average Damping** --> `f(y) => (y+x/y)/2` 
-  
+- **one solution: Average Damping** --> `f(y) => (y + x/y)/2` 
+  - note that the technique of **stabalizing by averaging** is general enough to be abstracted into its own function 
+  ```
+  def averageDamp(f: Double => Double)(x: Double): Double => Double =
+  { (x + f(x))/2 }
+  ```
+  - This takes a function as an input, and returns a function as an output
+
 **Notes on root finding methods (Fixed point iteration)**
 - https://briangordon.github.io/2014/06/sqrts-and-fixed-points.html
 - https://www.lvguowei.me/post/sicp-goodness-sqrt/
 - https://medium.com/@JosephJnk/an-introduction-to-function-fixed-points-with-the-y-combinator-e7bd4d00fb62
 - https://www.kimsereylam.com/racket/lisp/2019/02/22/fixed-point-and-newton-method.html
 
-**Iterative Fixed Point Estimate of Square Root Using "Damping"**
-- Note the use of **currying** and **higher order functions**
+**Write square root using average damp and fixed point**
+```
+def sqrt(x: Double) = {
 
+  // fixed point takes two args: 1) function 2) initial guess
+  // average damp takes function and returns function
 
-**Previously,** we saw that the expressive power of a language increases if we can pass **functions as arguments**
-- also the case for **functions that return functions**
-- note that the technique of **stabalizing by averaging** is general enough to be abstracted into its own function 
-- `def averageDamp(f: Double => Double)(x: Double) = { (x + f(x))/2 }`
-- This takes a function as an input, and returns a function as an output
+  fixedPoint(averageDamp(y => x /y))(1)
 
+}
 
-#### ========================
-**Lecture 2.4: Scala Syntax Summary**
-#### ========================
-
-**Context Free syntax: Extended Backus-Naur Form (EBNF)**:
-- add links
-
-**Types:**
-- can be numeric, boolean, string, function, and others 
-**Expressions**
-- identifier, literal, function application, operator application, selection, conditional expr, a block, or an anonymous function
-**Definitions**
-- a function def
-- a value def 
-- a **parameter** can be 
-  - call by value 
-  - call by name 
-**attempt, then go back to video for examples**
+```
 
 
 #### ========================
@@ -192,11 +229,22 @@ Ways to use functions to compose and abstract data: introducing **objects and cl
 
 **Consider a class for rational numbers**
 ```
+// simple class example
+
+class Rational(x: Int, y: Int) {
+  def numer = x
+  def denom = y
+}
+
+
+// more complex class, implementing rational arithmetic
+
 class Rational(x: Int, y: Int) {
     require(y != 0, "denominator must be non-zero")
 
     def this(x: Int) = this(x, 1)
 
+    // automatically simplify fracation upon entry
     private def gcd(a: Int, b: Int): Int = {
         if (b==0) a else gcd(b, a%b)
     }
@@ -205,22 +253,42 @@ class Rational(x: Int, y: Int) {
     def numer = x/g
     def denom = y/g
 
+    // method for pretty printing
+    override def toString(r: Rational) = {
+      r.numer + "/" + r.denom
+    }
+
+    // method for adding rationals
     def add(that:Rational) = {
         new Rational(
             numer * that.denom + that.numer * denom, 
             denom * that.denom)
         }
 
-    // alternative to the above, using symbolic identfier
+    // alternative for adding, using **symbolic identfier**
     def + (that:Rational) = {
         new Rational(
             numer * that.denom + that.numer * denom, 
             denom * that.denom)
         }
 
+    // method to return the negative of a rational
+    def neg(r: Rational) = {
+      new Rational(-1*r.numer, r.denom)
+    }
+
+    //method to subtract two rationals (add the neg)
+    def sub(that:Rational) = {
+      this.add(this.neg(that))
+    }
+
+
+    // metod to determine if one rational is less than another
     def less(that:Rational) = {
         numer * that.denom < that.numer * denom
     }
+
+    // methiod for finding max between two rationals
     def max(that:Rational) = {
         if (this.less(that)) that else this
     }
@@ -229,9 +297,11 @@ class Rational(x: Int, y: Int) {
 This definition introduces **Two new entities**
 - a new **Type** called Rational
 - a new **constructor** called Rational, to create elements of this type 
-- note that Scala keeps different names for types and values in different **namespaces**, no conflict 
+- note that Scala keeps different names for types and values in different **namespaces**, no conflict between two definitions of **Rational**
 
-**Objects**
+##### ===========================================
+
+**Notes on Objects**
 - a **type** is a set of values
 - elements of a class type are **objects**
 - `val x = new Rational(1,2)` is an object
@@ -246,14 +316,17 @@ This definition introduces **Two new entities**
 
 Previous example of `Rational` class did not have a method to simplify the results from the `add` method
 - we could call a simplify method after any addition operation
-- a better alternative, because it does not necessitate coupling the add method with a simplify whenever the first is called, is to simply simplify the representation of the class when object is constructed 
-- Note that in the implementation above `gdc()` is defined as a **private** method, indicating that clients of class, Rational, will not be able to acess this method.  
-- not that on the inside of a class, **this** represent the object on which the current method is executed. Note that members of a class can also be referencesd with `this.` prefix
+- a better alternative, because it does not necessitate coupling the add method with a simplify whenever the first is called, is to simply simplify the representation of the class **when object is constructed** 
+- Note that in the implementation above `gcd()` is defined as a **private** method, indicating that clients of class, Rational, will not be able to acess this method.  
+  
+- note that on the inside of a class, **this** represent the object on which the current method is executed. 
+- members of a class can also be referenced with `this.` prefix.
 
 **How to prevent users from instantiating irrational numbers, like 1/0**
 - note the **Require** predefined function
 - if not fulfilled, scala will throw `IllegalArgumentException`
 - besides `require` there is also **assert**
+  
 ```
     val x = sqrt(y)
     assert(x>=0)

@@ -72,7 +72,7 @@ Imperative:
 - modifying mutable variables
 - using assigments
 - using control structures (if-then-else, loops, break, return)
-- Imperative programs udnerstood as instruction sequences for a **Bon Neumann** computer
+- Imperative programs udnerstood as instruction sequences for a **Von Neumann** computer
    - Processor <--- Bus (fixed size) ----> Memory
    - mutable variables, variable dereferences and assignments, and cntrol sturctures all acan be mapped to aspects of the Von Neumann computer
  
@@ -88,7 +88,7 @@ Pure imperative programming is limited by the **Von Neumann bottleneck** whereby
    - if we want to implement high level concepts following theirmathematical theories no place for mutation
    - Therefore, focus on defining theories for operators expressed as functions, avoid mutations, define ways to abstract and compose functions
  
-FUnctional Programming
+Functional Programming:
 - **restricted sense:** FP means programming without mutable vars, assignments, loops, and other imperative control structues
 - **wider sense (Scala):** FP means focuseing on the functions --> for example, functions can be values that are prduced, consumed, and compsued (**first-class citizens**)
  
@@ -102,13 +102,13 @@ FUnctional Programming
 - the eval process stops once it results in a **value**
    - for the moment, consider a value to be a number
  
-**FUnction Evaluation pattern: Substitution Model**
+**Function Evaluation pattern: Substitution Model**
 - similar to operators
 - first evaluate all function arguments (l to r),
-- then replace the function application b ht functin's rhs,
+- then replace the function application with the function's rhs,
 - and at the same time, replace formal params of the function by the actual arguments
 ```
-// call by value implementation --> NAMES < ARGS
+// call by value (CBV) implementation --> NAMES < ARGS
 sumOfSquares(3,2+2)
 sumOfSquares(3,4)
 square(3) + square(4)
@@ -118,12 +118,12 @@ square(3) + square(4)
 ```
 - this **substituion model** is formalized in the lambda calculus, which is foundation of FP
    - Alonzo Church
-   - Why functional programming matters, John Hughes
+   - Why functional programming matters, John Hughes (link to article)
 - Note that this model cannot express operators with **side effects**
  
 **Termination**
 - not every expression reduces to a value (in an infinite number of steps)
-- Note an alternative evaluation strategy for SumofSquares: **call by name**
+- Note an alternative evaluation strategy for SumofSquares: **call by name, CBN**
 - CBN is another implementation of substitution model
 ```
 // CBN --> NAMES > ARGS
@@ -136,7 +136,7 @@ square(3) + square(2+2)
 9 + 4 * 4
 25
 ```
-- Both strategies reduce to the same final value if
+- **Both strategies reduce to the same final value if:**
    - reduced expressions consist of pure functions
    - both evals terminate
 - CBV has advantage that it evaluates every function arg only Once
@@ -299,7 +299,8 @@ def sqrt(x: Double): Double = {
 - Reuses stack frame, avoids stack overflow in functions susceptible to deep recursive chains
    - equivalent to a **loop** in an imperative program
    - remember to avoid premature optimization
-- Pattern to make recursive function tail-recursive:
+  
+**Pattern to make recursive function tail-recursive:**
    - nest original function in a new function
    - insert "accumulator" object into super function
    - modify the nested function to utilize accumulator
