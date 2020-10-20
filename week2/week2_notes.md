@@ -334,13 +334,24 @@ Previous example of `Rational` class did not have a method to simplify the resul
 - like `require`, a failing `assert` also throws a an exception, a `AssertionError`
 - **difference in intent:** require is a precondition, and assert is a check on the code of the function itself. 
 
+##### ====================================
+
 **Constructors**
 - a class implicits introduces a constructor called the **primary constructor**, which:
   - takes paramters of class 
   - executes all statements in class body 
-- Scala can include **multiple constructors** for a class
-  - note `def this(x: Int) = this(x, 1)` above
-  - This represents an alternative constructor, which is **utilitzed when an instance of Rational is constructed with only one argument, x**
+  
+Scala can include **multiple constructors** for a class
+- note `def this(x: Int) = this(x, 1)` above
+- This represents an alternative constructor, which is **utilitzed when an instance of Rational is constructed with only one argument, x**
+- when **this** used as a function, indicates a new constructor for the class in addition to primary one. 
+  - notice that the function **calls the primary constructor**
+
+##### ===============================
+
+Note that if, in the Rational class, rationals are kept unsimplified internally, and only simplified when rationals are converted to strings. **Do clients observe the same behavior when interacting?**
+- yes, for small sizes of denominators and nominators and small numbers of operations. 
+- thus, better to simplify internal values as early as possible to alleviate strain on later computations. 
 
 
 #### ========================
@@ -351,7 +362,7 @@ previously defined the meaning of a function application using a **substitution*
 - how is an instantiation of the class `new C(e1,...,em)` evaluated?
 - the expression args, `e1,...,em` are evaluated first
 
-Given, 
+**Given,** 
 ```class C(x1,...,xm) {
   def f(y1,...,yn = b)
 }
@@ -361,7 +372,11 @@ how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?
 - then, the arguments of the instantation of C are evaluated
 - finally, the reference, `this`, in the function call, `f`, is replaced with the newly instantiated object
 - resulting in the evaluated version of `f(w1,...,wm)`, with any inner references to the class instance attributes also evaluated
-- note that evaluation happens in the order of **1) method parameters 2) class arguments 3) class reference in method**
+
+note that evaluation happens in the order of: 
+- **1) method parameters** 
+- **2) class arguments** 
+- **3) class reference in method**
 
 **Infix Notation**
 - Scala supports infix notation
@@ -376,7 +391,7 @@ how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?
 **Assignment 2**
 #### ========================
 
-In this assignment, you will work with a functional representation of sets based on the mathematical notion of characteristic functions. The goal is to gain practice with higher-order functions.
+In this assignment, you will work with a functional representation of sets based on the mathematical notion of characteristic functions. **The goal is to gain practice with higher-order functions.**
 
 **Problem 1**
 - Characteristic function of a set, used to **Define the set** 

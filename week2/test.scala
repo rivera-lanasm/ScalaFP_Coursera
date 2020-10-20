@@ -3,15 +3,18 @@ object rationals {
     
     val x = new Rational(1,3)
     val y = new Rational(5,7)
+    val z = new Rational(8)
     
 }
 
 
 class Rational(x: Int, y: Int) {
-    
+
     // pre-condition on rational instance
     require(y != 0, "denominator must be non-zero")
 
+    // alternative constructor for class. Allows instances of 
+    // Rational to be initialized with just one param, numer.
     def this(x: Int) = this(x, 1)
 
     // automatically simplify fracation upon entry
