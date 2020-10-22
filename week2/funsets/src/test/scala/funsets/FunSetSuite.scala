@@ -2,6 +2,7 @@ package funsets
 
 import org.junit._
 
+
 /**
  * This class is a test suite for the methods in object FunSets..
  *
@@ -59,11 +60,14 @@ class FunSetSuite {
        * The string argument of "assert" is a message that is printed in case
        * the test fails. This helps identifying which assertion failed.
        */
-      assert(contains(s1, 1), "Singleton")
+      assert(contains(s1, 1), "Singleton: 1")
+      assert(!contains(s1, 2), "Singleton: 1 not 2")
+
     }
   }
 
-  @Ignore("not ready yet") @Test def `union contains all elements of each set`: Unit = {
+  //@Ignore("not ready yet") 
+  @Test def `union contains all elements of each set`: Unit = {
     new TestSets {
       val s = union(s1, s2)
       assert(contains(s, 1), "Union 1")

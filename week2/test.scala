@@ -37,7 +37,7 @@ class Rational(x: Int, y: Int) {
             denom * that.denom)
         }
 
-    // alternative for adding, using **symbolic identfier**
+    // alternative for adding, using --> **symbolic identfier**
     def + (that:Rational) = {
         new Rational(
             numer * that.denom + that.numer * denom, 
@@ -49,16 +49,21 @@ class Rational(x: Int, y: Int) {
       new Rational(-1*numer, denom)
     }
 
+    // alternative neg method as a prefix, unary operator
+    def unary_- : Rational = new Rational(-numer,denom)
+
     //method to subtract two rationals (add the neg)
     def sub(that:Rational) = {
       add(that.neg)
     }
 
-
     // metod to determine if one rational is less than another
     def less(that:Rational) = {
         numer * that.denom < that.numer * denom
     }
+
+    // alternative using symbolic identifier
+    def < (that: Rational) = numer * that.denom < that.numer * denom
 
     // methiod for finding max between two rationals
     def max(that:Rational) = {

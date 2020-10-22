@@ -16,7 +16,7 @@ trait FunSets extends FunSetsInterface {
   def contains(s: FunSet, elem: Int): Boolean = s(elem)
 
   /**
-   * Returns the set of the one given element.
+   * Returns the set (characteristic function) of one given element.
    */
   def singletonSet(elem: Int): FunSet = {
       (elem: Int) => true
@@ -27,7 +27,11 @@ trait FunSets extends FunSetsInterface {
    * Returns the union of the two given sets,
    * the sets of all elements that are in either `s` or `t`.
    */
-  def union(s: FunSet, t: FunSet): FunSet = ???
+  def union(s: FunSet, t: FunSet): FunSet = {
+
+    (elem : Int) => s(elem : Int) || t(elem : Int)
+
+  }
 
   /**
    * Returns the intersection of the two given sets,

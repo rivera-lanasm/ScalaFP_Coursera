@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200913230004"/>
+		date="20201022021605"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.8" status="release" pubdate="20181229062743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -440,7 +440,7 @@
 		<module organisation="org.scala-sbt" name="util-cache_2.12">
 			<revision name="1.2.2" status="release" pubdate="20180829192412" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3919" time="85" location="/root/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.pom"/>
+				<metadata-artifact status="successful" details="" size="3919" time="87" location="/root/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.pom"/>
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
@@ -465,7 +465,7 @@
 		<module organisation="org.scala-sbt" name="util-position_2.12">
 			<revision name="1.2.2" status="release" pubdate="20180829192401" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3382" time="123" location="/root/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.pom"/>
+				<metadata-artifact status="successful" details="" size="3382" time="86" location="/root/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.pom"/>
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="collections_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
@@ -487,7 +487,7 @@
 		<module organisation="org.scala-sbt" name="io_2.12">
 			<revision name="1.2.1" status="release" pubdate="20180806195954" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/io" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="3879" time="80" location="/root/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
+				<metadata-artifact status="successful" details="" size="3879" time="69" location="/root/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
 				<evicted-by rev="1.2.2"/>
 				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
@@ -729,7 +729,7 @@
 		<module organisation="org.scala-sbt" name="util-logging_2.12">
 			<revision name="1.2.2" status="release" pubdate="20180829192414" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="5001" time="84" location="/root/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.pom"/>
+				<metadata-artifact status="successful" details="" size="5001" time="86" location="/root/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.pom"/>
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
@@ -829,7 +829,7 @@
 			</revision>
 			<revision name="1.0.0" status="release" pubdate="20150817194630" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://scala-sbt.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD" url="http://opensource.org/licenses/BSD-2-Clause"/>
-				<metadata-artifact status="successful" details="" size="1402" time="104" location="/root/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.0.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1402" time="88" location="/root/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.0.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
 				<evicted-by rev="1.0.4"/>
 				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.5"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.4"/>
@@ -957,7 +957,7 @@
 		<module organisation="org.scala-sbt" name="util-interface">
 			<revision name="1.2.2" status="release" pubdate="20180829192432" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2775" time="71" location="/root/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
+				<metadata-artifact status="successful" details="" size="2775" time="116" location="/root/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
@@ -988,7 +988,7 @@
 					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1607947" time="0" location="/root/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.11.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar"/>
 					</artifact>
-					<artifact name="log4j-core" type="test-jar" ext="jar" extra-classifier="tests" status="successful" details="" size="1508894" time="894" location="/root/.ivy2/cache/org.apache.logging.log4j/log4j-core/test-jars/log4j-core-2.11.1-tests.jar">
+					<artifact name="log4j-core" type="test-jar" ext="jar" extra-classifier="tests" status="successful" details="" size="1508894" time="932" location="/root/.ivy2/cache/org.apache.logging.log4j/log4j-core/test-jars/log4j-core-2.11.1-tests.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1-tests.jar"/>
 					</artifact>
 				</artifacts>

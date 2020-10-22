@@ -356,36 +356,43 @@ Note that if, in the Rational class, rationals are kept unsimplified internally,
 
 #### ========================
 **Lecture 2.7: Evaluation and Operators**
-#### ========================
+#### ======================== 
 
 previously defined the meaning of a function application using a **substitution** based computation model, now we extend this model to **classes and objects**
 - how is an instantiation of the class `new C(e1,...,em)` evaluated?
 - the expression args, `e1,...,em` are evaluated first
 
-**Given,** 
+**Given, class, C, and method, f:** 
 ```class C(x1,...,xm) {
-  def f(y1,...,yn = b)
-}
+    def f(y1,...,yn = b)
+  }
 ```
-how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?
-- first, the arguments of `f` are substituted
-- then, the arguments of the instantation of C are evaluated
-- finally, the reference, `this`, in the function call, `f`, is replaced with the newly instantiated object
+**how is `new C(v1,...,vm).f(w1,...,wn)` evaluated?**
+- first, the arguments of `f` are substituted by the arguments, `w1,...,wn`
+- then, the arguments of the instantation of C, `x1,...,xm`, are substituted with `v1,...,vm` and evaluated
+- finally, the reference, `this`, in the function call, `f`, is replaced with the newly instantiated object, `new C(v1,...,vn)`
 - resulting in the evaluated version of `f(w1,...,wm)`, with any inner references to the class instance attributes also evaluated
 
 note that evaluation happens in the order of: 
 - **1) method parameters** 
 - **2) class arguments** 
-- **3) class reference in method**
+- **3) class reference in any class methods**
+
+
+##### ============================
 
 **Infix Notation**
 - Scala supports infix notation
-- Any mehtod with a parameter can be used lie an infix operator
-- `r add s` == `r.add(s)`
+- Any mehtod with a parameter can be used lie an **infix operator**
+- `r add s` same as `r.add(s)`
 
 **Relaxed Identifiers**
-- Scala supports both **alphanumeric** and **symbolic** identifiers ("+?%&" for example)
+- Scala supports both **alphanumeric** and **symbolic** identifiers ("+?%&" or "counter_++" for example)
+- If we want to replcae the `neg` method with a `-` prefix, there is an issue. The prefix operator, `-`, is different from the infix operator, `-`, referring to subtraction. Must call it `unary minus`
 
+**Precedence Rules**
+- precedence of an operator is determined by its **first** character
+- `a+b^?c?^d less a ==> b |c` --> `((a+b)^?(c?^d)) less ((a ==> b) | c)`
 
 #### ========================
 **Assignment 2**
@@ -395,5 +402,11 @@ In this assignment, you will work with a functional representation of sets based
 
 **Problem 1**
 - Characteristic function of a set, used to **Define the set** 
-- `type` alias: `type Row = List[Int]`
+  - the function, given a value, returns a boolean indicating whether the value is a member of the set
+  - for negative numbers, the characteristic function is: `(x: Int) => x < 0`
+
+- Define a type to represent characteristic functions:
+  - `type` alias: `type Row = List[Int]`
+- Using this representation, define a function that tests for the presence of a value in a set
+  - `def contains(s: FunSet, elem: Int): Boolean = s(elem)`
 

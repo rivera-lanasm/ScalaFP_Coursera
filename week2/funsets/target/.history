@@ -1,1 +1,11 @@
 test
+console
+sbt console
+console
+scala
+test
+console
+compile
+console
+ls
+test
