@@ -19,7 +19,7 @@ trait FunSets extends FunSetsInterface {
    * Returns the set (characteristic function) of one given element.
    */
   def singletonSet(elem: Int): FunSet = {
-      (elem: Int) => true
+      (x: Int) => x == elem
     }
 
 
@@ -29,7 +29,7 @@ trait FunSets extends FunSetsInterface {
    */
   def union(s: FunSet, t: FunSet): FunSet = {
 
-    (elem : Int) => s(elem : Int) || t(elem : Int)
+    (x : Int) => s(x : Int) || t(x : Int)
 
   }
 
