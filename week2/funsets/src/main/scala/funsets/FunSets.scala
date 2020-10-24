@@ -37,18 +37,27 @@ trait FunSets extends FunSetsInterface {
    * Returns the intersection of the two given sets,
    * the set of all elements that are both in `s` and `t`.
    */
-  def intersect(s: FunSet, t: FunSet): FunSet = ???
+  def intersect(s: FunSet, t: FunSet): FunSet = {
+
+    (x : Int) => s(x : Int) && t(x : Int)
+
+  }
 
   /**
    * Returns the difference of the two given sets,
    * the set of all elements of `s` that are not in `t`.
    */
-  def diff(s: FunSet, t: FunSet): FunSet = ???
+  def diff(s: FunSet, t: FunSet): FunSet = {
+
+    (x:Int) => s(x: Int) && !t(x: Int)
+  }
 
   /**
-   * Returns the subset of `s` for which `p` holds.
+   * Returns the subset of `s` for which predicate `p` holds.
    */
-  def filter(s: FunSet, p: Int => Boolean): FunSet = ???
+  def filter(s: FunSet, p: Int => Boolean): FunSet = {
+    (x:Int) => contains(s, x) && p(x)
+  }
 
 
   /**
@@ -57,27 +66,42 @@ trait FunSets extends FunSetsInterface {
   val bound = 1000
 
   /**
+   * The forall function tests whether a given predicate is true for all elements of the set.
    * Returns whether all bounded integers within `s` satisfy `p`.
    */
   def forall(s: FunSet, p: Int => Boolean): Boolean = {
+    // inner function to take advantage of tail-recursion
     def iter(a: Int): Boolean = {
-      if (???) ???
-      else if (???) ???
-      else iter(???)
+      if (a>bound) true
+      else if (contains(s,a) && !p(a)) false 
+      else iter(a+1)
     }
-    iter(???)
+    iter(-bound)
   }
 
   /**
+   * tests whether a set contains at least one element for which the given predicate is true
    * Returns whether there exists a bounded integer within `s`
    * that satisfies `p`.
    */
-  def exists(s: FunSet, p: Int => Boolean): Boolean = ???
+  def exists(s: FunSet, p: Int => Boolean): Boolean = {
+    // inner function to take advantage of tail-recursion
+    def iter(a: Int): Boolean = {
+      if (a>bound) false
+      else if (contains(s,a) && p(a)) true 
+      else iter(a+1)
+    }
+    iter(-bound)
+  }
 
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-  def map(s: FunSet, f: Int => Int): FunSet = ???
+  def map(s: FunSet, f: Int => Int): FunSet = {
+
+    (x:Int) => exists(s, (j: Int) => (x == f(j)))
+
+  }
 
   /**
    * Displays the contents of a set

@@ -44,3 +44,45 @@ something's wrong: no file:///root/ScalaFP_Coursera/week2/funsets/src/main/scala
 2020.10.22 03:32:14 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
 2020.10.24 17:59:07 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
 2020.10.24 18:00:10 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 18:05:02 WARN  no build target for: /root/ScalaFP_Coursera/week2/test.scala
+2020.10.24 18:05:32 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/project/StudentTasks.scala
+2020.10.24 18:28:00 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.24 18:28:24 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:28:32 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:31:07 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:35:08 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 18:39:49 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 18:41:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.24 18:46:14 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:46:37 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:52:02 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 18:52:04 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:06:02 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:18:07 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:21:01 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:34:57 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:35:43 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:39:21 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:40:08 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:47:44 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.24 19:48:39 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:49:50 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.24 19:49:50 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 19:50:51 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:51:00 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:51:27 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:51:57 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:52:14 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:52:33 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 19:53:07 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 20:24:55 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 20:24:58 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 20:25:12 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 20:25:33 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 20:25:42 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 21:45:13 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 21:45:39 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 21:45:41 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.24 21:46:19 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.24 21:47:54 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.24 21:49:37 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala

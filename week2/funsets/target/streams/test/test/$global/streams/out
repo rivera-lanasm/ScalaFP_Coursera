@@ -4,26 +4,27 @@
 [0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.[0m
 [0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$AnnotatedFingerscan@3006fad, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mdiff "contains" all elements in one set but not the other[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mdiff "contains" all elements in one set but not the other[0m finished, took 0.062 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mintersect contains all elements in both sets[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mintersect contains all elements in both sets[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mforall tests whether a given predicate is true for all elements of the set[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mforall tests whether a given predicate is true for all elements of the set[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mfilter creates sub-set containing elements of one set satisfying predicate[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mfilter creates sub-set containing elements of one set satisfying predicate[0m finished, took 0.004 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36msingleton set one contains one[0m started[0m
-[0m[[0m[31merror[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[31msingleton set one contains one[0m failed: java.lang.[31mAssertionError[0m: assertion failed: Singleton: 1 not 2, took 0.057 sec[0m
-[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.assert(Predef.scala:282)[0m
-[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite$$anon$1.this([35mFunSetSuite.scala[0m:[33m64[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite.singleton set one contains one([35mFunSetSuite.scala[0m:[33m58[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36msingleton set one contains one[0m finished, took 0.064 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36msingleton set one contains one[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mexists tests whether a set contains at least one element for which the given predicate is true[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mexists tests whether a set contains at least one element for which the given predicate is true[0m finished, took 0.002 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36munion contains all elements of each set[0m started[0m
-[0m[[0m[31merror[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[31munion contains all elements of each set[0m failed: java.lang.[31mAssertionError[0m: assertion failed: Union 3, took 0.003 sec[0m
-[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.assert(Predef.scala:282)[0m
-[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite$$anon$2.this([35mFunSetSuite.scala[0m:[33m75[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite.union contains all elements of each set([35mFunSetSuite.scala[0m:[33m71[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36munion contains all elements of each set[0m finished, took 0.004 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36munion contains all elements of each set[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mMap Returns a set transformed by applying f to each element of s.[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mMap Returns a set transformed by applying f to each element of s.[0m finished, took 0.005 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mcontains is implemented[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mcontains is implemented[0m finished, took 0.002 sec[0m
-[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m2 failed[0m[34m, [0m[34m0 ignored[0m[34m, 3 total, 0.125s[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mcontains is implemented[0m finished, took 0.0 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 9 total, 0.148s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 9 events.[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
-[0m[[0m[31merror[0m] [0m[0mFailed: Total 3, Failed 2, Errors 0, Passed 1[0m
-[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
-[0m[[0m[31merror[0m] [0m[0m	funsets.FunSetSuite[0m
-[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 9, Failed 0, Errors 0, Passed 9[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	funsets.FunSetSuite[0m
