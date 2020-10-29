@@ -86,3 +86,53 @@ something's wrong: no file:///root/ScalaFP_Coursera/week2/funsets/src/main/scala
 2020.10.24 21:46:19 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
 2020.10.24 21:47:54 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
 2020.10.24 21:49:37 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.25 20:30:58 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:31:13 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:31:24 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:31:57 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:34:36 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:35:40 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.sc
+2020.10.25 20:35:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json
+2020.10.25 20:35:54 INFO  Ammonite: Starting BSP server
+2020.10.25 20:35:54 INFO  Ammonite: 
+
+2020.10.25 20:35:53 INFO  Connected to Ammonite Build server v2.2.0-4-4bd225e
+2020.10.25 20:35:58 INFO  time: indexed workspace in 2.59s
+2020.10.25 20:36:03 INFO  compiling week3/test3.sc
+2020.10.25 20:36:05 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.25 20:36:05 INFO  time: compiled test3.sc in 2.11s
+2020.10.25 20:36:15 INFO  compiling week3/test3.sc
+2020.10.25 20:36:15 INFO  Ammonite: Error: /root/ScalaFP_Coursera/.ammonite/scala-2.12.12/amm-2.2.0-4-4bd225e/week3/test3/target/META-INF/semanticdb/ammonite/$file/week3/test3_0.scala.semanticdb not found (for /root/ScalaFP_Coursera/.ammonite/scala-2.12.12/amm-2.2.0-4-4bd225e/week3/test3/target/META-INF/semanticdb/week3/test3.sc.semanticdb)
+
+2020.10.25 20:36:15 INFO  time: compiled test3.sc in 94ms
+2020.10.25 20:37:08 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:37:21 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:37:59 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:38:28 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:38:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:38:55 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:39:30 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:39:48 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:39:50 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:44:28 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.25 20:44:28 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 20:44:28 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.25 21:43:42 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:43:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:43:47 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:47:53 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:49:33 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.25 21:49:33 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:50:15 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:50:56 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:51:04 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:51:08 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:51:15 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.25 21:51:30 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.25 21:52:26 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.29 01:45:29 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.29 01:46:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.29 01:46:46 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.29 01:50:24 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.29 01:51:27 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.29 01:57:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala

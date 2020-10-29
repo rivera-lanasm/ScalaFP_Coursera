@@ -25,7 +25,8 @@
    - Actors, Software transactional memory, Futures --> **Akka**
  
 ### SBT Tutorial
-[guide to using SBT](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md)
+- [guide to using SBT](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md)
+- https://www.youtube.com/watch?v=PDhOv4NMK-Y
  
 **Some SBT Commands:**
 - you can start the Scala interpreter inside sbt using the `console` task
