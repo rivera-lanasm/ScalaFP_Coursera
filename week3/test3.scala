@@ -1,11 +1,16 @@
 
 object intsets { 
+    
+    val t1 = new NonEmpty(3, new Empty, new Empty)
+    val t2 = t1 incl 4
+
 
 }
 
 abstract class IntSet { 
     def incl(x: Int): IntSet
     def contains(x: Int): Boolean 
+    def union(other: IntSet): IntSet
     }
 
 
@@ -14,6 +19,10 @@ class Empty extends IntSet {
 
     // adds an element to the BST
     def incl(x: Int): IntSet = new NonEmpty(x, new Empty, new Empty)
+
+    def union(other: IntSet) = other
+
+    override def toString = "."
 }
 
 class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet { 
@@ -40,6 +49,8 @@ class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
     def union(other: IntSet) = {
         ((left union right) union other) incl elem
         }
+
+    override def toString = "{" + left + elem + right + "}"
 
 }
 
