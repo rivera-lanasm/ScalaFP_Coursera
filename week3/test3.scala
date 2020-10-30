@@ -1,8 +1,12 @@
 
 object intsets { 
     
-    val t1 = new NonEmpty(3, new Empty, new Empty)
-    val t2 = t1 incl 4
+    val t1 = new NonEmpty(5, new Empty, new Empty)
+    val t2 = new NonEmpty(6, new Empty, new Empty)
+
+
+    val a = t1 incl 3 incl 7
+    val b = t2 incl 7 incl 8
 
 
 }

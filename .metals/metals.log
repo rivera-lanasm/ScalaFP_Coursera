@@ -181,3 +181,53 @@ something's wrong: no file:///root/ScalaFP_Coursera/week2/funsets/src/main/scala
 2020.10.29 02:39:06 WARN  no build target for: /root/ScalaFP_Coursera/week3/Hello.scala
 Oct 29, 2020 2:39:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.10.30 01:12:49 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.30 01:13:54 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 01:13:59 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.30 01:14:09 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.30 01:14:26 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 01:14:32 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 01:14:37 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 01:14:51 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 02:53:12 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 02:53:12 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_1.scala in week4.List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week3/test3_1.scala, 217, 217, 231)
+something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_1.scala in week4.List[T]RangePosition(file:///root/ScalaFP_Coursera/week3/test3_1.scala, 217, 217, 224)
+something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_1.scala in week4.List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week3/test3_1.scala, 234, 234, 248)
+something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_1.scala in week4.List[T]RangePosition(file:///root/ScalaFP_Coursera/week3/test3_1.scala, 217, 217, 224)
+2020.10.30 02:56:17 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 30, 2020 2:57:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9989
+2020.10.30 02:57:58 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_1.scala in week4.List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week3/test3_1.scala, 729, 729, 743)
+2020.10.30 03:00:05 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:00:22 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:00:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 03:00:41 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:01:52 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:47:50 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:48:19 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:48:40 WARN  no build target for: /root/ScalaFP_Coursera/week3/Hello.scala
+2020.10.30 03:49:07 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:50:09 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:50:29 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:50:44 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
+2020.10.30 03:50:44 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
+2020.10.30 03:50:46 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
+2020.10.30 03:52:03 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:52:30 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 30, 2020 3:52:30 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 30, 2020 3:52:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///root/ScalaFP_Coursera/week3/test3_2.scala,line-8,offset=213
+scala.reflect.internal.FatalError: no context found for source-file:///root/ScalaFP_Coursera/week3/test3_2.scala,line-8,offset=213
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.10.30 03:52:47 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:56:02 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 03:56:10 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala

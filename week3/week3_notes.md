@@ -82,7 +82,178 @@ object Hello()
 - this would place Hello in the package progfun.examples
 - can subsequently refer to Hello by its **fully qualified name**
     - `progfun.examples.Hello`
-    - to run the Hello program: `scala progfun.examples.Hello`
+    - to run Hello from cmd line: `scala progfun.examples.Hello`
 
+**Import clause**
+- `import week3.Rational` --> imports all objects from package.module
+- `import week3._` --> imports all objects in package
+- `import week3.{Rational, Hello}` --> imports two objects from week3
+  - **named imports**
+
+**Default Imports**
+- members of package: 
+  - **scala** --> scala.Int, scala.Boolean
+  - **java.lang** --> java.lang.Object
+  - **scala.Predef** --> scala.Predef.assert
+
+
+**Traits**
+- A class can only have one superclass --> **Single Inheritance** 
+- many times, there are many classes that a type naturally conforms to and inherits from --> **traits**
+  - like an abstract class
+- objects can inherit from arbitrarily many traits
+  - ` class Square extends Shape with Planar with Movable...`
+- Traits can coontain fields and concrete methods 
+  - cannot contain (value) parameters
+
+
+**Scala Class Hierarchy**
+- link 
+- scala.Any --> superclass of any other classes 
+  - base type of all types
+  - methods such as `==`, `toString`, universal methods
+- scala.AnyVal
+  - base type of all primitive types
+- scala.AnyRef
+  - base tyepe of all reference types
+- scala.ScalaObject
+- scala.Null
+  - subclass of all AnyRef derived classes
+  - the type of null is Null
+  - incompatible with AnyVal derived classes
+
+```
+// acceptable
+val x = null
+val y: String = x
+
+// not acceptable
+val z: Int = null
+
+```
+
+- scala.Nothing
+  - bottom of scala type hierarchy
+  - subtype of every other type
+  - no value of type nothing --> why useful?
+    - to signal abnormal termination
+    - as an element type of empty collections --> `Set[Nothing]`
+  
+**Exceptions**
+- `throw Exc`
+  - aborts evaluation with the exception `Exc`
+```
+object scratch { 
+
+    def error(msg: String) = throw new Error(msg)
+}
+// returns Nothing --> abnormal termination
+```
+
+**what is type of following**
+- if (true) 1 else false
+  - AnyVal! 
+- Why? Expression technically can evaluate to Int or Boolean
+- Both inherit from AnyVal --> **typechecker** picks AnyVal as type for expression
+
+
+#### ========================
+**Lecture 3.3: Polymorphism**
+#### ========================
+
+**Types: How compiler Sees classes and functions**
+- **Type parameterization:** classes and methods can have types as parameters --> **Polymorphism**
+  
+**Immutable Linked-List**
+- fundamental functional data structure
+- two building blocks: 
+  - Nil: empty list
+  - Cons: a cell containing 1) the first element of the list and 2) the reference/pointer to the remainder of the list
+
+**Cons-Lists in Scala**
+- A list is either
+  - an empty list, `new Nil`
+  - a list `new Cons(x, xs)` consisting of a head elem x and a tail list, xs
+```
+package week4
+
+trait IntList ...
+
+class Cons(val head: Int, cal tail: IntList) extends IntList ...
+
+class Nil extends IntList ...
+
+```
+- adding `val` to class instantiation defines **parameter** and **field** in the class definition itself
+- preferred as syntax form
+equivalent to:
+```
+class Cons(_head: Int, _tail: IntList) extends IntList {
+
+    val head = _head
+    val tail = _tail
+    }
+
+```
+
+**Type parameters**
+- too narrow to define only lists with Int elements
+- Generalize the definition using a **type parameter**
+  - Type parameters are **written in square brackets, [T]**
+```
+// see test3_1.scala
+
+package week4
+
+trait List[T]
+
+// Console
+class Cons[T](val head: T, val tail: List[T]) extends List[T]
+
+class Nil[T] extends List[T]
+
+```
+
+**Generic Functions**
+- Functions can have **type parameters**
+- here is a function that creates a list consisting of a single elem
+```
+
+def singleton[T](elem: T): Cons[T] = { new Cons[T](elem, new Nil[T]) }
+
+// can then write:
+
+singleton[Int](1)
+singleton[Boolean](true)
+
+```
+
+**Type Inference**
+- scala compiler can usually deduce the correct type parameters from **value arguments of func call**
+- could write `singleton(true)`
+
+
+**Types and Evaluations**
+- notice that type parameters are not persisted somwhere in the data structure
+- in fact, **type parametrs do not affect evaluation in scala**
+- type parameters and arguments removed befor evaluation
+  - ***Type Erasure***
+
+**Polymorphism**
+- func can be applied to args of many types 
+- the type can have instances of many types
+- Two principle forms
+  - 1) subtyping: instances of a subclass can be passed to a base class
+    - List --> Cons, Nill
+    - methods that accept class List can accept Nill or Con as well
+    - associated with OO
+  - 2) generics: instances of a func or class are created by type parameterization
+    - using type parameterization to create List of Ints, Booleans, etc.
+    - Associated with FP
+
+**Exercise**
+- write func `nth` that takes an integer n and a list and selects the nth element from the list
+- elements numbered from 0
+- if index outside range from 0 up to length of list minus 1, a IndexOutOfBOundsException should be thrown 
 
 
