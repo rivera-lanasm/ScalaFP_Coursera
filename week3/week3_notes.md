@@ -251,9 +251,14 @@ singleton[Boolean](true)
     - using type parameterization to create List of Ints, Booleans, etc.
     - Associated with FP
 
-**Exercise**
+**Exercise** 
 - write func `nth` that takes an integer n and a list and selects the nth element from the list
 - elements numbered from 0
 - if index outside range from 0 up to length of list minus 1, a IndexOutOfBOundsException should be thrown 
+
+#### ========================
+**Assignment**
+#### ========================
+
 
 

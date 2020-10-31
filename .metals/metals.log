@@ -231,3 +231,100 @@ scala.reflect.internal.FatalError: no context found for source-file:///root/Scal
 2020.10.30 03:52:47 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
 2020.10.30 03:56:02 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
 2020.10.30 03:56:10 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 22:43:21 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.30 22:43:44 WARN  no build target for: /root/ScalaFP_Coursera/week2/test.scala
+2020.10.30 22:44:03 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.31 00:43:55 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 00:43:58 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.31 14:50:59 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:51:45 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:52:24 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:52:55 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:53:59 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:54:31 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:55:11 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 14:57:41 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:00:09 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.31 15:02:18 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 15:07:03 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:07:05 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+Oct 31, 2020 3:10:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 31, 2020 3:10:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [1422:1414]
+java.lang.AssertionError: assertion failed: bad position: [1422:1414]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.copyRange(Position.scala:218)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:133)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:133)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:442)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Oct 31, 2020 3:10:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 31, 2020 3:10:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [1426:1418]
+java.lang.AssertionError: assertion failed: bad position: [1426:1418]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.copyRange(Position.scala:218)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:133)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:133)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:442)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Oct 31, 2020 3:10:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 31, 2020 3:10:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [1430:1421]
+java.lang.AssertionError: assertion failed: bad position: [1430:1421]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.copyRange(Position.scala:218)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:133)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:133)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:372)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+2020.10.31 15:12:53 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+Oct 31, 2020 3:14:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12686
+2020.10.31 15:15:54 WARN  no build target for: /root/ScalaFP_Coursera/week2/test.scala
+2020.10.31 15:15:56 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 15:17:28 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:18:07 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:18:10 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:18:34 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:19:45 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:22:13 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:22:49 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:22:53 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:23:13 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:23:55 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4.scala
+2020.10.31 15:24:06 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:24:10 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:24:19 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:24:21 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:36:57 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:37:01 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:38:25 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+Oct 31, 2020 3:39:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13583
+2020.10.31 15:40:53 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:41:03 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:43:33 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:45:02 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:45:07 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:45:14 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
+2020.10.31 15:45:19 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_1.scala
