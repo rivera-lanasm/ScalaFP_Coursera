@@ -376,3 +376,99 @@ something's wrong: no file:///root/ScalaFP_Coursera/week3/test3_2.scala in week4
 2020.10.31 16:39:58 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
 2020.10.31 16:40:35 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
 2020.10.31 16:41:53 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
+2020.10.31 16:46:26 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:46:28 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetReader.scala
+2020.10.31 16:46:29 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetData.scala
+2020.10.31 16:46:38 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetReader.scala
+2020.10.31 16:46:43 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:46:43 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSetInterface.scala
+2020.10.31 16:46:48 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:46:58 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetReader.scala
+2020.10.31 16:47:07 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetData.scala
+2020.10.31 16:47:09 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:47:35 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 16:47:47 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetData.scala
+2020.10.31 16:47:48 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:52:54 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 16:52:57 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 16:53:08 WARN  no build target for: /root/ScalaFP_Coursera/week3/Hello.scala
+2020.10.31 16:53:09 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 16:53:13 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_1.scala
+2020.10.31 16:53:21 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3_2.scala
+2020.10.31 16:53:22 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 16:53:35 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:35:43 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSetInterface.scala
+2020.10.31 21:36:42 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 21:36:58 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 21:37:20 WARN  no build target for: /root/ScalaFP_Coursera/week2/test.scala
+2020.10.31 21:37:34 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala
+2020.10.31 21:37:55 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala in Int => BooleanRangePosition(file:///root/ScalaFP_Coursera/week2/funsets/src/main/scala/funsets/FunSets.scala, 226, 230, 240)
+2020.10.31 21:43:01 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSetInterface.scala
+2020.10.31 21:44:38 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:44:54 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:45:11 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:45:22 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:45:38 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 21:45:38 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:45:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:46:31 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:47:26 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:49:13 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:53:11 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:53:14 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:55:07 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 21:58:38 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 22:00:07 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:05:20 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:12:31 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:15:38 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:20:57 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:22:17 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:22:20 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:37:13 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:37:59 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 22:40:19 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:40:22 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:40:52 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:41:19 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:47:36 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:49:21 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:49:24 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:50:21 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:50:38 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala in objsets.Tweet => BooleanRangePosition(file:///root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala, 3700, 3706, 3716)
+2020.10.31 22:51:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 22:53:45 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 23:00:23 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:00:54 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:02:16 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+Oct 31, 2020 11:07:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18342
+2020.10.31 23:08:47 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:09:39 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:09:41 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:11:12 WARN  no build target for: /root/ScalaFP_Coursera/week2/funsets/src/test/scala/funsets/FunSetSuite.scala
+2020.10.31 23:11:28 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 23:11:32 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:11:32 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:11:34 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 23:11:36 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:11:36 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:11:37 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 23:18:07 WARN  no build target for: /root/ScalaFP_Coursera/week3/test3.scala
+2020.10.31 23:19:14 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:19:23 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:19:25 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:19:25 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:19:28 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 23:19:35 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:20:01 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:20:16 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:20:25 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:20:29 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:21:05 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 23:21:10 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/test/scala/objsets/TweetSetSuite.scala
+2020.10.31 23:25:17 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:28:48 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala
+2020.10.31 23:29:12 WARN  no build target for: /root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala

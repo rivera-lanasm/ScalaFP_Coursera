@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:132:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m required: objsets.Tweet => Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    this.foreach(filterAcc(p, acc))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:137:11: not found: value tw[0m
+[0m[[0m[31merror[0m] [0m[0m    if (p(tw:Tweet)) acc.incl(tw:Tweet) else acc[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:137:31: not found: value tw[0m
+[0m[[0m[31merror[0m] [0m[0m    if (p(tw:Tweet)) acc.incl(tw:Tweet) else acc[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
