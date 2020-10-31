@@ -1,7 +1,5 @@
 package week4
 
-import java.{util => ju}
-
 trait List[T] {
 
     // what kind of list do we have
@@ -12,9 +10,6 @@ trait List[T] {
 
     // remaining list
     def tail: List[T]
-
-    // retrieve nth value
-    def nthval(n: Int): T
 
     }
 
@@ -33,12 +28,6 @@ class Cons[T](val head: T, val tail: List[T]) extends List[T] {
     // val evaluated when object first initialized
     // def is evaluated each time it is referenced
 
-    def nthval(n: Int): T = {
-
-        ???
-
-        }
-
     }
 
 class Nil[T] extends List[T] {
@@ -52,6 +41,7 @@ class Nil[T] extends List[T] {
     // implementing head and tail here as type nothing is 
     // valid for implementing abstract class because Nothing 
     // is a SUBTYPE of any other type, including T
-
-    def nthval(n: Int): Nothing = throw new IndexOutOfBoundsException("Nil.nthval")
     }
+
+
+

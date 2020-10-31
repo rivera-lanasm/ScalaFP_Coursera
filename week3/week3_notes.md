@@ -256,6 +256,11 @@ singleton[Boolean](true)
 - elements numbered from 0
 - if index outside range from 0 up to length of list minus 1, a IndexOutOfBOundsException should be thrown 
 
+```
+test3_2.scals
+
+```
+
 #### ========================
 **Assignment**
 #### ========================
