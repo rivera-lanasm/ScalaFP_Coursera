@@ -54,7 +54,7 @@ class TweetSetSuite {
       assertEquals(4, size(set1.union(set5)))
     }
 
-  @Ignore("not ready yet") @Test def `descending: set5`: Unit =
+  @Test def `descending: set5`: Unit =
     new TestSets {
       val trends = set5.descendingByRetweet
       assert(!trends.isEmpty)

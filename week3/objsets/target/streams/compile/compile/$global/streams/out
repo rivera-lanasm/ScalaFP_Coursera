@@ -1,12 +1,19 @@
-[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:132:27: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : objsets.TweetSet[0m
-[0m[[0m[31merror[0m] [0m[0m required: objsets.Tweet => Unit[0m
-[0m[[0m[31merror[0m] [0m[0m    this.foreach(filterAcc(p, acc))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:137:11: not found: value tw[0m
-[0m[[0m[31merror[0m] [0m[0m    if (p(tw:Tweet)) acc.incl(tw:Tweet) else acc[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:137:31: not found: value tw[0m
-[0m[[0m[31merror[0m] [0m[0m    if (p(tw:Tweet)) acc.incl(tw:Tweet) else acc[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:184:23: not found: value &&[0m
+[0m[[0m[31merror[0m] [0m[0m    if (left.isEmpty) && (right.isEmpty) elem[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:185:28: not found: value &&[0m
+[0m[[0m[31merror[0m] [0m[0m    else if (left.isEmpty) && (!right.isEmpty) mostRetweeted_acc(left.mostRetweeted, elem)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:186:29: not found: value &&[0m
+[0m[[0m[31merror[0m] [0m[0m    else if (!left.isEmpty) && (right.isEmpty) mostRetweeted_acc(elem, right.mostRetweeted)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week3/objsets/src/main/scala/objsets/TweetSet.scala:184:42: postfix operator elem needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0mby making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m----[0m
+[0m[[0m[31merror[0m] [0m[0mThis can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0mor by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0mSee the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0mwhy the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m    if (left.isEmpty) && (right.isEmpty) elem[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

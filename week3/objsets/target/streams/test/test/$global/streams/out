@@ -5,21 +5,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(objsets.TweetSetSuite, sbt.ForkMain$AnnotatedFingerscan@3006fad, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: a on set5[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: a on set5[0m finished, took 0.098 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: a on set5[0m finished, took 0.078 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: on empty set[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: on empty set[0m finished, took 0.002 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: set4c and set4d[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: set4c and set4d[0m finished, took 0.003 sec[0m
-[0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mdescending: set5[0m ignored[0m
+[0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mdescending: set5[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mdescending: set5[0m finished, took 0.002 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: with empty set1[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: with empty set1[0m finished, took 0.001 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: with empty set2[0m started[0m
 [0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36munion: with empty set2[0m finished, took 0.001 sec[0m
 [0m[[0m[0minfo[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: twenty on set5[0m started[0m
-[0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: twenty on set5[0m finished, took 0.001 sec[0m
-[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[33m1 ignored[0m[34m, 6 total, 0.175s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest objsets.[33mTweetSetSuite[0m.[36mfilter: twenty on set5[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 7 total, 0.15s[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 7 events.[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 7, Failed 0, Errors 0, Passed 6, Skipped 1[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	objsets.TweetSetSuite[0m

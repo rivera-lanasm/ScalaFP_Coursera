@@ -1,7 +1,7 @@
 package funsets
 
 /**
- * 2. Purely Functional Sets.
+ * 2. Purely Functional Sets. 
  */
 trait FunSets extends FunSetsInterface {
   /**
