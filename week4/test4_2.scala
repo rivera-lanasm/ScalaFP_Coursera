@@ -1,6 +1,6 @@
 package week4
 
-trait List[T] {
+trait List[+T] {
 
     // what kind of list do we have
     def isEmpty: Boolean 
@@ -30,7 +30,9 @@ class Cons[T](val head: T, val tail: List[T]) extends List[T] {
 
     }
 
-class Nil[T] extends List[T] {
+    // objects can't have type parameters
+    // Nothing is subtype of all types, means Nil can extend any type
+object Nil extends List[Nothing] {
 
     def isEmpty: Boolean = {true}
 
@@ -60,12 +62,12 @@ object List {
     // HERE LIST is being used as a COMPANION OBJECT!
 
     // List(1,2) --> List.apply(1,2)
-    def apply[T](x1: T, x2: T): List[T] = {
-        new Cons(x1, new Cons(x2, new Nil))
-    }
-    // Function to create list of three elements:
-    def apply[T](x1: T, x2: T, x3: T): List[T] = {
-        new Cons(x1, new Cons(x2, new Cons(x3,new Nil)))
-    }
+    // def apply[T](x1: T, x2: T): List[T] = {
+    //     new Cons(x1, new Cons(x2, Nil))
+    // }
+    // // Function to create list of three elements:
+    // def apply[T](x1: T, x2: T, x3: T): List[T] = {
+    //     new Cons(x1, new Cons(x2, new Cons(x3, Nil)))
+    // }
 
     }

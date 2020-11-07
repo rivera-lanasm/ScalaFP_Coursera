@@ -126,14 +126,13 @@ Stated in the languate Liskov used,
 - `type A = IntSet => NonEmpty`
 - `type B = NonEmpty => IntSet`
 - from this, we can say that A <: B
-- type A satisfies the contract specified by type B, and express a particular case of this contract
+- type A **satisfies the contract** specified by type B, and express a particular case of this contract
 
 #### ==============================================
 **Lecture 4.4: Subtyping and Generics, Variance**
 #### ==============================================
 
 **Variance:** How subtyping relates to genericity
-
 
 Recall that some types should be coviariant (Lists) while others are not (Arrays)
 - roughly, a type that **accepts mutation of its elements** should not be covariant
@@ -150,4 +149,24 @@ Scala allows you to **declare the variance of a type** by annotating the **type 
 - class Array[+Int] {...} --> Array is covariant
 - class C[-A] {...} --> C is contravariant
 - class C[A] {...} --> C is nonvariant
+
+**Function trait declaration**
+- functions are contravariant in their argument types and covarient in their result type
+- scala compiler will check that there are no problemati combimatiions when compiling a class with variance annotations
+
+
+#### ==============================================
+**Lecture 4.5: Decomposition**
+#### ==============================================
+
+**a simple arithmetic interpreter**
+- numbers and additions only
+- expressions represented as class hierarchy
+  - base trait, Expr
+  - subclasses, NUmber and Sum
+- implemenation: test4_4.scala
+
+**writing all those accessor and classification methods becomes tedious**
+- number of accessor plus classification methods tends to grow quadratically as new classes implemented in a class hierarchy
+- adding functionality for Prod and Var adds an incremental 25 methods to the hierachy 
 
