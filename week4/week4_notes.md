@@ -170,3 +170,118 @@ Scala allows you to **declare the variance of a type** by annotating the **type 
 - number of accessor plus classification methods tends to grow quadratically as new classes implemented in a class hierarchy
 - adding functionality for Prod and Var adds an incremental 25 methods to the hierachy 
 
+**Type Tests and Type Casts**
+- `def isInstanceOf[T]: Boolean`, checks whether object's type conforms to T
+- `def asInstanceOf[T]: T`, treats object as instance of type T, throws classCastException if it isn't
+- **use in scala is discouraged**
+- low level and unsafe, better solutions are available
+- benefit is that classification methods not required
+- **Object Oriented Decomposition** preferred
+ - good for local simplification
+ 
+#### ==============================================
+**Lecture 4.6: Pattern Matchig**
+#### ==============================================
+ 
+**want a general and convenient way to access objects in an extensible class hierarchy**
+- We've tried:
+ - classification and access methods: quadratic explosion
+ - type tests and type casts: low-level, not safe at runtime
+ - O-O decomposition: does not always work, needs to modify all classes to add new methods
+ 
+**Functional Decomposition with Pattern Matching**
+- note, the sole purpose of test and accessor functions is to **reverse** the construction process
+- the **purpose** of decomposition is to **Recover** what kind of constructor used for the particular object, and **what arguments** were used
+- scala automates this decomposition process: **Case Classes**
+ 
+**Case Class**
+- case class definition identical to normal class definition, except that it is preceded by modifier, `case`
+- creating a case class in scala implicitly defines **companion objects** with `apply` methods --> **factory methods**
+- can write `Number(1)` instead of `new Number(1)`
+```
+trait Expr
+case class Number(n: Int) extends Expr
+ 
+// implicitly defines:
+ 
+object Number {
+ def apply(n: Int) new Number(n)
+}
+ 
+```
+ 
+**Pattern Matching**
+- helps us access contents of case classes
+- while allowing us to develop a class hiearchy while easily adding new methods
+- polymorphism
+```
+def eval(e: Expr): Int = e match {
+ case Number(n) => n
+ case Sum(e1, e2) => eval(e1) + eval(e2)
+ }
+ 
+```
+**What do patterns match?**
+- a **constructor pattern**, `C(p1,...pn)`, matches all values of type C (or subtype) that have been constructed with arguments matching the patterns p1,...,pn
+- a **variable pattern**, `x`, matches ANY value and **binds** the name of the variable to this value
+- a **constant pattern**, c, matches value that are equal (==) to c
+ 
+**Expression Problem**
+- the dilemma we've seen forces us to favor **either adding new classes** or **adding new methods** easily
+ 
+```
+def show(e: Expr): String = {
+ e match {
+   case Number(n) => n.toString
+   case Sum(e1, e2) => show(e1)  + "+" + show(e2)
+ }
+ 
+}
+```
+ 
+#### ==============================================
+**Lecture 4.7: Lists (Intro to Collections)**
+#### ==============================================
+ 
+**Lists**
+- fundamental data structure in fp
+- `val nums: List[Int] = List(1, ..., 10)`
+- represented in scala as a **linked list**, with heads and pointers
+
+**Lists vs. Arrays (both sequences)**
+- lists are **immutable** and **recursive** (vs. flat)
+ 
+**Like arrays**, lists are **homogenous**: elemets of a list must have same type (notice type parameters in `val nums` above)
+
+**List Constructors**
+- all lists constructed from:
+  - empty list `Nil`
+  - construction operation, `::` (cons)
+    - `x :: xs` yields a new list
+    - `val nums: List[Int] = 1 :: (2 :: (3 :: (4 :: Nil)))` 
+    - however, a **convention in scala** is that all operators ending in `:` associate to the right, so the parentheses above are not necessary
+    - **also, unlike other infix operators**, those ending in `:` are seen as methods calls **of the right-hand operand**
+    - the `::` call is equivalent of a `prepend` call by the right hand operand
+
+**List Operations**
+- all operations on lists can be expressed in terms of:
+  - **head, tail, and isEmpty**
+
+**List Patterns**
+- enouraged to decompose lists with pattern matching 
+- `x :: y :: List(xs, ys) :: zs`
+  - this pattern describes a list with length L >= 3
+
+**Sorting Lists**
+- **Insertion Sort**
+  - https://www.geeksforgeeks.org/insertion-sort/
+  - sort List(7, 3, 9, 2) 
+  - see test3_4.scala
+  - complexity is n*n, not very efficient 
+
+
+#### ==============================================
+**Assignment: Huffman Coding**
+#### ==============================================
+
+
