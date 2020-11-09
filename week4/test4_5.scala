@@ -1,5 +1,6 @@
 object ListSort {
 
+    
     def insert(x: Int, xs: List[Int]): List[Int] = {
 
         xs match {
