@@ -12,4 +12,4 @@ mkdir lib project target
 # create an initial build.sbt file
 echo 'name := "MyProject"
 version := "1.0"
-scalaVersion := "2.12.10"' > build.sbt
+scalaVersion := "2.12.10"' > build. sbt
