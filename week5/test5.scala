@@ -43,13 +43,16 @@ object Week5 {
         }
 
     
-    def removeAt[T](xs: List[T], n: Int) = {
+    def removeAt[T](xs: List[T], n: Int): List[T] = {
         
         xs match {
             case List() => List()
-            
-        } 
-    }
+            case x :: xs => if (n==0) List(x) else if (n>0) List(x) ::: removeAt(xs, n-1)
+            } 
+    
+        // (xs take n) ::: (xs drop n + 1) --> alternative
+    
+        }
 
 }  
 
