@@ -162,7 +162,7 @@ We've seen that functions on lists have similar structures, display patterns:
 **Exercise: Pack func, packs consecutive duplicates of a list into sublists**
 - see test5_2.scala
  
-**Ecode**
+**Encode**
  
 #### ========================================
 **Lecture 5.5: Reduction of Lists**
@@ -266,7 +266,7 @@ def concat[T](xs: List[T], ys: List[T]): List[T] = {
 
 **What does it mean for FP to be correct?**
 - use **concat** as example, `++` for lists
-  - would like to verify that concatenation is associative
+  - would like to verify that concatenation is **associative**
   - and that it admits the empty list Nil as netrual element to the lef and to the right
 ```
 (xs ++ ys) ++ zs == xs ++ (ys ++ zs)
@@ -276,6 +276,32 @@ xs ++ Nil == xs
 Nil ++ xs == xs
 
 ```
-- how can we prove these properties
+- how can we prove these properties? **what criteria can we use?**
+- **Structural Induction** on lists
+
+**Reminder: Natural Induction**
+- principle of proof by natural induction
+- *To show that a property P(n) for all the integers n >= b*
+  - Show that we have P(b) *(base case)*
+  - for all integers n >=b, **show the induction step**
+    - if one has p(n), then one **also** has p(n+1)
+- in FP, we can **apply reduction steps as equalities to some part of a term**
+  - works because pure FP does not have side effects, so a term is equivalent to the term to which it reduces
+  - **referential transperancy**
+
+
+**Structural Induction**
+- analogous to natural induction
+- To prove p(xs) for all lists, xs
+  - **show** that p(nil) holds, **base case**
+  - for a list xs and **some element x**, show the **induction step**
+    - *if p(xs) holds, then p(x :: xs) also holds*
+
+**review content for concat**
+
+
+#### ========================================
+**Lecture 5.7: LArger quational proof on lists**
+#### ========================================
 
 

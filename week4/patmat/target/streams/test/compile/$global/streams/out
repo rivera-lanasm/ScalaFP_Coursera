@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:40:30: not found: value t1[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(false, List(t1, t2))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:40:34: not found: value t2[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(false, List(t1, t2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:41:29: not found: value t1[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(true, List(t1))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

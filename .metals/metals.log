@@ -979,3 +979,128 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -6
 2020.11.15 19:39:38 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
 Nov 15, 2020 7:59:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.11.15 20:21:09 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:21:14 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 20:36:18 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:40:17 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/HuffmanInterface.scala
+2020.11.15 20:42:04 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 3168, 3168, 3178)
+2020.11.15 20:44:03 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:44:11 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_4.scala
+2020.11.15 20:44:20 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 20:44:23 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_2.scala
+2020.11.15 20:44:32 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.11.15 20:44:38 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2020.11.15 20:44:48 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 20:44:52 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_2.scala
+2020.11.15 20:46:27 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:46:50 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:46:53 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 20:47:29 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:47:31 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:47:35 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:51:16 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:51:37 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:52:54 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 20:53:31 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 2939, 2939, 2949)
+2020.11.15 20:59:46 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/HuffmanInterface.scala
+2020.11.15 20:59:48 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:01:08 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:01:10 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:01:47 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:02:06 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:02:43 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:03:26 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 3563, 3563, 3577)
+2020.11.15 21:05:31 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:08:11 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:08:19 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:08:49 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:09:42 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:10:34 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:10:37 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:11:22 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2020.11.15 21:25:23 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:25:48 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:29:12 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:37:41 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:39:24 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:39:34 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4159, 4159, 4173)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4159, 4159, 4173)
+2020.11.15 21:41:42 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:42:30 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:43:08 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:08 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:10 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:10 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:18 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:44 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:43:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 21:43:54 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:44:12 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:44:16 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:44:55 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:46:12 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 21:46:53 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/HuffmanInterface.scala
+Nov 15, 2020 9:49:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -32
+java.lang.StringIndexOutOfBoundsException: String index out of range: -32
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Nov 15, 2020 9:49:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -32
+java.lang.StringIndexOutOfBoundsException: String index out of range: -32
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.11.15 21:49:19 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4159, 4159, 4173)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4866, 4866, 4880)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4866, 4866, 4880)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4866, 4866, 4880)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree] => BooleanRangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 4866, 4881, 4891)
+2020.11.15 22:15:04 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 22:15:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 22:15:09 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:15:58 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:16:00 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:16:11 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:16:30 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:16:54 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:17:18 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:17:24 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:17:36 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 5348, 5348, 5358)
+2020.11.15 22:19:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 22:19:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 22:19:40 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 2939, 2939, 2949)
+2020.11.15 22:21:30 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:22:06 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:22:28 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:22:31 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2020.11.15 22:29:56 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, List[Huffman.this.Bit])]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8221, 8221, 8244)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8233, 8233, 8242)
