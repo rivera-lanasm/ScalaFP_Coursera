@@ -897,3 +897,85 @@ WARNING: Unmatched cancel notification for request id 3328
 2020.11.12 04:41:07 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
 2020.11.12 04:41:48 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
 2020.11.12 04:41:55 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2020.11.15 00:45:10 INFO  Started: Metals version 0.9.5 in workspace '/root/ScalaFP_Coursera' for client vscode.
+2020.11.15 00:45:11 INFO  time: initialize in 0.47s
+2020.11.15 00:45:14 WARN  Build server is not auto-connectable.
+2020.11.15 00:45:14 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 00:45:25 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2020.11.15 00:45:27 INFO  no build target: using presentation compiler with only scala-library
+2020.11.15 00:45:58 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.11.15 00:46:06 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.11.15 00:46:17 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_2.scala
+2020.11.15 00:46:22 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 00:46:22 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_2.scala
+2020.11.15 00:47:06 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 37, 37, 51)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 37, 37, 44)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 37, 37, 46)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 37, 37, 46)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 37, 37, 46)
+2020.11.15 00:48:31 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 18:01:30 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 18:07:11 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 243, 243, 257)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 243, 243, 250)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 243, 243, 250)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 243, 243, 250)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 255, 255, 269)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 255, 255, 262)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 255, 255, 262)
+something's wrong: no file:///root/ScalaFP_Coursera/week5/test5_3.scala in List[T]RangePosition(file:///root/ScalaFP_Coursera/week5/test5_3.scala, 255, 255, 262)
+2020.11.15 18:59:00 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 18:59:34 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+Nov 15, 2020 7:01:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -6
+java.lang.StringIndexOutOfBoundsException: String index out of range: -6
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:268)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$3(Trees.scala:1393)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1393)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1264)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:343)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.11.15 19:01:40 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:02:36 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:03:18 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:14:00 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:18:06 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:18:19 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:34:23 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:34:34 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:34:39 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:35:03 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:35:38 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:38:58 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.11.15 19:39:38 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+Nov 15, 2020 7:59:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
