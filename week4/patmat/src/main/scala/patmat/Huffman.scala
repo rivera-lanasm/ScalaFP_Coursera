@@ -216,7 +216,9 @@ trait Huffman extends HuffmanInterface {
    */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
 
+  // ===================================
   // Part 4b: Encoding using code table
+  // ===================================
 
   type CodeTable = List[(Char, List[Bit])]
 

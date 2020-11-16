@@ -1104,3 +1104,6 @@ something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/
 2020.11.15 22:29:56 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
 something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, List[Huffman.this.Bit])]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8221, 8221, 8244)
 something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8233, 8233, 8242)
+2020.11.15 22:43:59 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, List[Huffman.this.Bit])]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8303, 8303, 8326)
+something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 5733, 5733, 5742)
