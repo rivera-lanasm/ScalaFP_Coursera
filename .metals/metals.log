@@ -1107,3 +1107,108 @@ something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/
 2020.11.15 22:43:59 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
 something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, List[Huffman.this.Bit])]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 8303, 8303, 8326)
 something's wrong: no file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala, 5733, 5733, 5742)
+2020.12.26 21:37:17 INFO  Started: Metals version 0.9.8 in workspace '/root/ScalaFP_Coursera' for client vscode.
+2020.12.26 21:37:17 INFO  time: initialize in 0.49s
+2020.12.26 21:37:21 WARN  Build server is not auto-connectable.
+2020.12.26 21:37:21 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.26 21:51:12 WARN  no build target for: /root/ScalaFP_Coursera/week3/Hello.scala
+2020.12.26 21:51:18 INFO  no build target: using presentation compiler with only scala-library
+2020.12.26 21:51:18 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.12.26 21:51:22 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2020.12.26 22:20:36 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.12.26 22:20:39 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2020.12.26 22:20:41 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2020.12.26 22:20:41 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2020.12.26 22:20:53 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+Dec 26, 2020 10:22:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying og.categories.intersect[String](ig.categories).nonEmpty
+found that og.categories.intersect[String](ig.categories).nonEmpty is false
+where ig = Literal
+where og = Typ
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying og.categories.intersect[String](ig.categories).nonEmpty
+found that og.categories.intersect[String](ig.categories).nonEmpty is false
+where ig = Literal
+where og = Typ
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1592)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying og.categories.intersect[String](ig.categories).nonEmpty
+found that og.categories.intersect[String](ig.categories).nonEmpty is false
+where ig = Literal
+where og = Typ
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.internal.prettyprinters.TreeSyntax$SyntaxInstances.groupNeedsParens$1(TreeSyntax.scala:111)
+	at scala.meta.internal.prettyprinters.TreeSyntax$SyntaxInstances.p(TreeSyntax.scala:126)
+	at scala.meta.internal.prettyprinters.TreeSyntax$SyntaxInstances.$anonfun$syntaxTree$40(TreeSyntax.scala:633)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.prettyprinters.TreeSyntax$SyntaxInstances.$anonfun$syntaxTree$1(TreeSyntax.scala:633)
+	at scala.meta.prettyprinters.Syntax$$anon$1.apply(Syntax.scala:9)
+	at scala.meta.internal.prettyprinters.TreeSyntax$.$anonfun$apply$1(TreeSyntax.scala:1236)
+	at scala.meta.prettyprinters.Syntax$$anon$1.apply(Syntax.scala:9)
+	at scala.meta.prettyprinters.Api$XtensionSyntax.syntax(Api.scala:11)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.apply(DocumentSymbolProvider.scala:193)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1(SimpleTraverser.scala:5)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1$adapted(SimpleTraverser.scala:5)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.meta.transversers.SimpleTraverser.apply(SimpleTraverser.scala:5)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.continue$1(DocumentSymbolProvider.scala:92)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.apply(DocumentSymbolProvider.scala:113)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1(SimpleTraverser.scala:5)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1$adapted(SimpleTraverser.scala:5)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.meta.transversers.SimpleTraverser.apply(SimpleTraverser.scala:5)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.continue$1(DocumentSymbolProvider.scala:92)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.newOwner$1(DocumentSymbolProvider.scala:96)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.apply(DocumentSymbolProvider.scala:168)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1(SimpleTraverser.scala:5)
+	at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1$adapted(SimpleTraverser.scala:5)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.meta.transversers.SimpleTraverser.apply(SimpleTraverser.scala:5)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.continue$1(DocumentSymbolProvider.scala:92)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.apply(DocumentSymbolProvider.scala:113)
+	at scala.meta.internal.metals.DocumentSymbolProvider$SymbolTraverser.symbols(DocumentSymbolProvider.scala:45)
+	at scala.meta.internal.metals.DocumentSymbolProvider.documentSymbols(DocumentSymbolProvider.scala:29)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$documentSymbols$1(ScalaPresentationCompiler.scala:152)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	... 3 more
+
+2020.12.26 22:33:16 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:39:30 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:39:53 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:40:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:41:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:41:31 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:42:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:43:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:43:12 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 298)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 291)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 293)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 294)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 296)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 296)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 282, 282, 296)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 318)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 311)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 313)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 314)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 316)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 316)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6.scala, 302, 302, 316)
+2020.12.26 22:47:28 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:49:47 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.26 22:49:47 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:49:47 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.26 22:52:16 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:52:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:53:01 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:53:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:53:35 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:54:32 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2020.12.26 22:55:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
