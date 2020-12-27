@@ -68,5 +68,10 @@ Other Sequences
 **Lecture 6.2: COmbinatorial Search and For-Expressions**
 #### ================================
 
+HOw to handle nesterd sequences in combinatorial search problems, **for expressions**, which replace loops in imperative languages 
+
+
+
+
 
 
