@@ -25,5 +25,17 @@ object Week6 {
 
         }
 
+    // ==========================
+    // 6.2 
+
+    // scalar product
+    def scalarProduct_forExpr(xs: Vector[Double], ys: Vector[Double])= { //: Double = {
+
+        (for {
+            xy <- (xs zip ys)
+        } yield (xy._1 * xy._2) ).sum
+
+        }
+
 
 }

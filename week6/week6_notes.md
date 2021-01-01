@@ -70,8 +70,81 @@ Other Sequences
 
 HOw to handle nesterd sequences in combinatorial search problems, **for expressions**, which replace loops in imperative languages 
 
+example: given pos integer n, find all pairs of positive integers, i and j, s.t. i + j are prime, j < i 
+- in imperative style, we could use a nested loop and a predicate to test for inclusion of given i and j 
+- a functional way: 
+  - generate the sequence of all pairs of integers (i, j)
+  - filter for pairs which meet predicate 
+```
+1 until n map (i => 1 until n map( j => (i,j)))
+
+```
+- why vector of vectors? IndexedSeq
+  - converts ranges to sequence of pairs, so ranges must be coerced to another type
+  - IndexedSeq is implemented with Vector
+
+- Combining sub-sequences into a single sequence 
+  - can use a foldRight with `++` or `flatten`, equivalents
+```
+val seq = (1 until n) map (i => (1 until i) map (j => (i,j)))
+
+// method 1, fold
+(seq foldRight Seq[Any]())(_ ++ _)
+
+// method 2, flatten 
+seq.flatten
+
+```
+- recall flatMap
+  - rule: `xs flatMap f = (xs map f).flatten
+  - `val seq = (1 until n) flatMap (i => (1 until i) map (j => (i,j)))`
+
+- apply predicate 
+```
+val seq = (1 until n) flatMap (i => (1 until i) map (j => (i,j)))
+
+// isPrime is custom func 
+seq filter (pair => isPrime(pair._1 + pair._2))
+
+```
+
+The above is complex, can we simplify? For-Exppression notation 
+```
+// example
+for (p <- persons if p.age > 20) yield p.name
+// <- -- 'taken from'
+
+```
+- similar to for-loop, but
+  - no side effect
+  - produces new result with yield 
+
+- For expressions --> `for (s) yield e` 
+  - `s` is a sequence of generators and filters
+  - value `e` returned by an iteration
+- **generator** is of the form p <- e where p is a pattern and e is an expression whose value is a collection 
+- can be several generators, wherein last generators vary faster than first ones 
+
+```
+// re-write above example using for-expr
+
+for {
+  i <- 1 until n
+  j <- 1 until i
+  if isPrime(i + j)
+  } yield (i, j)
+
+```
+
+Re-write scalar-product
+```
 
 
+```
+
+#### ================================
+**Lecture 6.3: M-Queens Problem**
+#### ================================
 
 
 
