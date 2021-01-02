@@ -1212,3 +1212,181 @@ something's wrong: no file:///root/ScalaFP_Coursera/week6/test6.scala in Vector[
 2020.12.26 22:53:35 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
 2020.12.26 22:54:32 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
 2020.12.26 22:55:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 00:31:36 INFO  Started: Metals version 0.9.8 in workspace '/root/ScalaFP_Coursera' for client vscode.
+2021.01.01 00:31:37 INFO  time: initialize in 0.7s
+2021.01.01 00:31:41 WARN  Build server is not auto-connectable.
+2021.01.01 00:31:41 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 00:35:22 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 00:35:26 INFO  no build target: using presentation compiler with only scala-library
+2021.01.01 01:10:34 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:10:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:10:48 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:12:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:12:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:13:23 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:14:20 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:15:23 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:15:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:17:48 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 01:19:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6.scala
+2021.01.01 22:09:43 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:09:48 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:09:49 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:09:50 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:10:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:10:45 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:11:56 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:11:56 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:12:00 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+Jan 01, 2021 10:12:26 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2021.01.01 22:12:49 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:13:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+Jan 01, 2021 10:16:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1211
+2021.01.01 22:18:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:18:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.01 22:22:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:22:49 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:23:01 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:27:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:27:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:28:36 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:28:43 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.01 22:29:08 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 52, 52, 66)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 52, 52, 59)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 52, 52, 61)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 52, 52, 61)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 52, 52, 61)
+2021.01.01 22:41:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:50:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:51:00 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:51:22 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:51:25 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:51:26 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:51:35 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:53:10 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:55:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:57:05 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:57:05 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:57:20 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:57:23 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:57:25 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:57:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:57:48 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:58:04 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:59:04 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:59:15 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:59:19 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:59:20 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:59:36 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 04:59:37 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:59:51 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 04:59:54 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:00:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:00:33 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:01:00 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:01:15 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 05:04:53 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:04:59 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 05:04:59 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 05:05:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:05:16 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:05:28 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:12:43 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:12:45 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:13:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:13:46 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:13:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:15:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:17:11 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.02 05:18:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:20:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:20:25 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+Jan 02, 2021 5:20:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -5
+java.lang.StringIndexOutOfBoundsException: String index out of range: -5
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 02, 2021 5:20:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -7
+java.lang.StringIndexOutOfBoundsException: String index out of range: -7
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jan 02, 2021 5:20:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -10
+java.lang.StringIndexOutOfBoundsException: String index out of range: -10
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2021.01.02 05:20:36 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:20:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:24:02 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:24:09 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+2021.01.02 05:36:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala

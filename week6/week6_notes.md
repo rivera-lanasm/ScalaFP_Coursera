@@ -143,8 +143,45 @@ Re-write scalar-product
 ```
 
 #### ================================
-**Lecture 6.3: M-Queens Problem**
+**Lecture 6.3: N-Queens Problem**
 #### ================================
+
+- Recall the Iterabel class hierarchy from before, here exploring `Set`
+- most operations on sequences also in sets 
+- Differences:
+  - sets are unordered
+  - sets do not have dupl. elems
+  - fundamental operation on sets is `contains`
+    - whereas for `seq` is head, tail, or `indexing` for vector
+
+(N-Queens Problem)[https://en.wikipedia.org/wiki/Eight_queens_puzzle]
+- place 8 queens on a chess board (8x8) s.t. no queen is threatened by another 
+- generalize to nxn board
+
+**Recursive Solution; placing k queens on an n x x board**
+- suppose we have already placed k-1 queens
+- each solution represented by a list of len k-1, containing numbers of columns corresponding to each queen in rows 0 to n-1
+  - col number of queen in row k-1 comes first in list, followed by col number of queen in row k-2, etc. 
+  ```
+  https://en.wikipedia.org/wiki/Eight_queens_puzzle
+  // 8 queens, 8 by 8 board 
+  // index by 0, start row and col enumeration from top-right
+  
+  // start with col indexes of first k-1 (7) queens in rows 0-(k-1)
+  [4, 1, 7, 0, 6, 3, 5]
+
+  // complete to full solution by adding col placemenet of the kth (8th) queen in nth (8th) row
+  [2, 4, 1, 7, 0, 6, 3, 5]
+
+  ```
+- Illustrates method of using a tree to find the solution for k-1 queens, k-2, etc. as a way to build solution set for k queens
+- the solution set for k queens **contains** solution set for k-1, k-2, etc. 
+
+
+#### ================================
+**Lecture 6.4: Maps**
+#### ================================
+
 
 
 
