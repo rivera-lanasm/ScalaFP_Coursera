@@ -9,31 +9,42 @@ object polynomials {
             (for ((exp, coeff) <- terms) yield s"$coeff x^ $exp") mkString " + "
         }
 
-        def + (other: Polynom) = {
+        def + (other: Polynom): Polynom = { // use video
             
             // simple way:
-            //new Poly(self.terms ++ other.terms)
+            //new Polynom(this.terms ++ other.terms)
 
-            // with recursion:
-            def add(terms: Map[Int, Double], other_terms: Map[Int, Double]):Map[Int, Double] = {
-                other_terms.tail.isEmpty match {
-                    case true => terms
-                    // print intermediate results
-                    case false => if (terms.contains(other_terms.head._1)) add( terms + (other_terms.head._1 -> (other_terms.head._2 + terms(other_terms.head._1) ) ) , other_terms.tail)
-                                  else add( (terms + other.terms.head) , other_terms.tail)
-                    }
+            // with recursion: --> CHAMGE FROM OPERATOR ADD TO FUNC ADD, ADD(X,Y) --> BETTER FOR RECURSION
+            val terms: Map[Int, Double] = this.terms
+            other.terms.isEmpty match {
+                case true => new Polynom(terms)
+                case false => {
+                    val new_other = new Polynom(other.terms.tail)
+                    val terms = add(terms, other.terms.head)
+                    new Polynom(terms) + new_other }
+                } 
+            
+            }
+
+        def add(terms: Map[Int, Double], addition: (Int, Double) ):Map[Int, Double] = {
+            
+            val (exp, coeff) = addition
+
+            terms get exp match {
+                case Some(coeff1) => terms + (exp -> (coeff + coeff1))
+                case None => terms + (exp -> coeff)
                 }
-            new Polynom(add(this.terms, other.terms))
+                
+            }
+            
 
 
         }
 
-
-        }
 
 
     val p1 = new Polynom(Map(1 -> 2.0, 3 -> 4.0, 5 -> 6.2))
-    val p2 = new Polynom(Map(0 -> 3.0, 3 -> 7.0))
+    val p2 = new Polynom(Map(0 -> 3.0))
 
     val p3 = p1 + p2
     
