@@ -182,6 +182,42 @@ Re-write scalar-product
 **Lecture 6.4: Maps**
 #### ================================
 
+**Associative Maps**
+- both iterables, as well as functions 
+- defined with two type parameters, `Map[Key, Value]`
+- iterables:
+  - Class Map[Key, Value] extends the collection type, Itreable[(Key, Value)]
+  - supports collections operations of key/value pairs --> (key, value), like a python dict
+- functions
+  - Class Map[Key, Value] also extends the function type Key => Value
+  - maps can be applied to key arguments
 
+**Option Type**
+- can use map to query using func invocation or with a `get` method
+  - if no corresponding val in map found, returns Option type value equal to None, else Some
+- Option type defined as a `trait`
+  - takes type parameter
+- contains case class `Some`, which extends OPtion[A] and object `None`, which extends OPtion[Nothing]
+  
+**Decomposing Option**
+- since Option defined using case class, can take advantage of pattern matching 
+```
+val romanNumerals = Map("I" -> 1, "V" -> 5, "X"->10)
 
+def showNumeral(symbol: String) = romanNumerals.get(symbol) match {
+    case Some(value) => value 
+    case None => "no corresponding numeral"
+    }
+
+```
+
+**Sorted and Groupby**
+- orderBy
+  - `sorted` and `sortWith` methods
+- groupBy
+  - partitions collection into a map of collections according to a **discriminator function, f**
+  
+**polynomial**
+- a map from exponents to coefficients 
+- express polynomials as maps
 
