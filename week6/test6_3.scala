@@ -3,19 +3,47 @@ object polynomials {
 
     // =============================
     // Polynom
-    class Polynom(val terms: Map[Int, Double]) {
+    class Polynom(val terms0: Map[Int, Double]) {
+        def this(bindings: (Int, Double)*) = this(bindings.toMap) // toMap converts sequence to map
+
+        val terms = terms0 withDefaultValue(0.0)
 
         override def toString(): String = {
-            (for ((exp, coeff) <- terms) yield s"$coeff x^ $exp") mkString " + "
+            (for ((exp, coeff) <- terms.toSeq.sortWith(_._1 < _._1).reverse) yield s"$coeff x^ $exp") mkString " + "
         }
 
-        def + (other: Polynom): Polynom = { 
-            
-            // simple way:
-            new Polynom(this.terms ++ other.terms)
+        // ================================================
+        // concatenation ++ (recursive implementation)
+        // def + (other: Polynom): Polynom = { 
+        //     new Polynom(terms ++ (other.terms map adjust) ) 
+        //     }
 
-            // =====================================================
-            // with recursion: --> CHAMGE FROM OPERATOR ADD TO FUNC ADD, ADD(X,Y) --> BETTER FOR RECURSION
+        // def adjust(term: (Int, Double)): (Int, Double) = {
+
+        //     val (exp, coeff): (Int, Double) = term 
+
+        //     // pattern match method
+        //     // terms get exp match {
+        //     //     case Some(value) => exp -> (value + coeff)
+        //     //     case None => exp -> coeff
+        //     //     }
+
+        //     // Default Dict, default map value -> 0.0
+        //     exp -> (coeff + terms(exp))
+
+        //     }
+        // ================================================
+
+
+        // ================================================
+        // FoldLeft
+        
+
+        // ================================================
+
+
+        // =====================================================
+        // with recursion: --> CHAMGE FROM OPERATOR ADD TO FUNC ADD, ADD(X,Y) --> BETTER FOR RECURSION
         //     val terms: Map[Int, Double] = this.terms
         //     other.terms.isEmpty match {
         //         case true => new Polynom(terms)
@@ -38,19 +66,15 @@ object polynomials {
                 
         //     }
         // =====================================================
-            
-
-
-        }
-
-
-
-    val p1 = new Polynom(Map(1 -> 2.0, 3 -> 4.0, 5 -> 6.2))
-    val p2 = new Polynom(Map(0 -> 3.0))
-
-    val p3 = p1 + p2
     
     }
+
+    val p1 = new Polynom(1 -> 2.0, 3 -> 4.0, 5 -> 6.2)
+    val p2 = new Polynom(0 -> 3.0, 3 -> 7.0)
+
+    val p3 = p1 + p2
+
+}
 
 
 

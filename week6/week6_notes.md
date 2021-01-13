@@ -194,13 +194,13 @@ Re-write scalar-product
 
 **Option Type**
 - can use map to query using func invocation or with a `get` method
-  - if no corresponding val in map found, returns Option type value equal to None, else Some
+  - if no corresponding val in map found, returns Option type value equal to None, else returns an OPtion(Type) type with value equal to Some(Type)
 - Option type defined as a `trait`
   - takes type parameter
-- contains case class `Some`, which extends OPtion[A] and object `None`, which extends OPtion[Nothing]
+- contains case class `Some`, which extends OPtion[A] and object `None`, which extends Option[Nothing]
   
 **Decomposing Option**
-- since Option defined using case class, can take advantage of pattern matching 
+- since Option defined using **case-class**, can **take advantage of pattern matching**
 ```
 val romanNumerals = Map("I" -> 1, "V" -> 5, "X"->10)
 
@@ -213,11 +213,22 @@ def showNumeral(symbol: String) = romanNumerals.get(symbol) match {
 
 **Sorted and Groupby**
 - orderBy
-  - `sorted` and `sortWith` methods
+  - `fruit sortWith (_.length < _.length)` --> length of fruits on the left is less than those on the right
 - groupBy
-  - partitions collection into a map of collections according to a **discriminator function, f**
+  - partitions collection into a **map of collections** according to a **discriminator function, f**
+  - `fruit groupBy (_.head)`
   
 **polynomial**
 - a map from exponents to coefficients 
-- express polynomials as maps
+- can express polynomials as maps
+- test6_3
+
+**Default Values**
+- so far, maps have been treated like **partial functions**
+- `withDEfaultVAlue` turns a map into a total function 
+  - `val cap1 = capitalOfCounty withDefaultValue "<unknown>"`
+
+**Repeated Function Parameters**
+- auxillary constructor,
+  - `def this(bindings: (Int, Double)*) = this(bindings.toMap) // toMap converts sequence to map`
 
