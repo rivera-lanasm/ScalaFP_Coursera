@@ -1739,3 +1739,7 @@ something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[I
 2021.01.11 05:05:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
 2021.01.11 05:11:18 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
 2021.01.11 05:11:25 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 542, 542, 558)
+2021.01.13 02:14:25 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.13 02:14:34 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.13 02:14:46 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala

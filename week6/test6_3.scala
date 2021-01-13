@@ -9,33 +9,35 @@ object polynomials {
             (for ((exp, coeff) <- terms) yield s"$coeff x^ $exp") mkString " + "
         }
 
-        def + (other: Polynom): Polynom = { // use video
+        def + (other: Polynom): Polynom = { 
             
             // simple way:
-            //new Polynom(this.terms ++ other.terms)
+            new Polynom(this.terms ++ other.terms)
 
+            // =====================================================
             // with recursion: --> CHAMGE FROM OPERATOR ADD TO FUNC ADD, ADD(X,Y) --> BETTER FOR RECURSION
-            val terms: Map[Int, Double] = this.terms
-            other.terms.isEmpty match {
-                case true => new Polynom(terms)
-                case false => {
-                    val new_other = new Polynom(other.terms.tail)
-                    val terms = add(terms, other.terms.head)
-                    new Polynom(terms) + new_other }
-                } 
+        //     val terms: Map[Int, Double] = this.terms
+        //     other.terms.isEmpty match {
+        //         case true => new Polynom(terms)
+        //         case false => {
+        //             val new_other = new Polynom(other.terms.tail)
+        //             val terms = add(terms, other.terms.head)
+        //             new Polynom(terms) + new_other }
+        //         } 
             
-            }
+        //     }
 
-        def add(terms: Map[Int, Double], addition: (Int, Double) ):Map[Int, Double] = {
+        // def add(terms: Map[Int, Double], addition: (Int, Double) ):Map[Int, Double] = {
             
-            val (exp, coeff) = addition
+        //     val (exp, coeff) = addition
 
-            terms get exp match {
-                case Some(coeff1) => terms + (exp -> (coeff + coeff1))
-                case None => terms + (exp -> coeff)
-                }
+        //     terms get exp match {
+        //         case Some(coeff1) => terms + (exp -> (coeff + coeff1))
+        //         case None => terms + (exp -> coeff)
+        //         }
                 
-            }
+        //     }
+        // =====================================================
             
 
 
