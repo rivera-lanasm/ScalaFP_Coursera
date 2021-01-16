@@ -36,8 +36,22 @@ object polynomials {
 
 
         // ================================================
-        // FoldLeft
-        
+        // FoldLeft method
+        def + (other: Polynom) = {
+            new Polynom((other.terms foldLeft terms)(addTerm))
+        }
+
+        def addTerm(terms: Map[Int, Double], term: (Int, Double)) = {
+            
+            val (exp, coeff) = term
+
+            terms get exp match {
+                case Some(coeff1) => terms + (exp -> (coeff + coeff1))
+                case None => terms + (exp -> coeff)
+                }
+            }
+
+       
 
         // ================================================
 

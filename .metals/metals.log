@@ -1791,3 +1791,29 @@ something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in (Int,
 2021.01.13 04:43:39 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
 2021.01.13 04:43:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
 2021.01.13 04:43:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.14 03:08:33 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1446)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1439)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1441)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1442)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1444)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1444)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1428, 1428, 1444)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in (Int, <error>)RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1452, 1452, 1467)
+2021.01.14 03:09:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.14 03:10:48 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:10:48 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:10:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.14 03:12:42 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_3.scala
+2021.01.14 03:12:48 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_2.scala
+2021.01.14 03:12:57 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5_1.scala
+2021.01.14 03:13:01 WARN  no build target for: /root/ScalaFP_Coursera/week5/test5.scala
+2021.01.14 03:13:05 WARN  no build target for: /root/ScalaFP_Coursera/week4/test4_5.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_3.scala in Map[Int,Double]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_3.scala, 1432, 1432, 1448)
+2021.01.14 03:22:07 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:22:07 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:22:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:22:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.14 03:22:37 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.14 03:22:40 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_3.scala
+2021.01.14 03:22:44 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

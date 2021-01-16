@@ -232,3 +232,5 @@ def showNumeral(symbol: String) = romanNumerals.get(symbol) match {
 - auxillary constructor,
   - `def this(bindings: (Int, Double)*) = this(bindings.toMap) // toMap converts sequence to map`
 
+**Fold left vs. concatenation**
+- FL more efficient
