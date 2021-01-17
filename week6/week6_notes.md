@@ -253,7 +253,20 @@ design method, `translate`, such that a given phone number, such as 7225247386, 
 - Parallel and Distributed systems: explit immutability for parallel execution and distributed collections
 
 
+#### ================================
+**Excercise; Anagrams**
+#### ================================
 
+Your ultimate goal is to implement a method `sentenceAnagrams`, which, given a list of words representing a sentence, finds all the anagrams of that sentence. 
 
+Note that we used the term meaningful in defining what anagrams are. You will be given a dictionary, i.e. a list of words indicating words that have a meaning.
+
+Here is the general idea. 
+- We will transform the characters of the sentence into a list saying how often each character appears. We will call this list the occurrence list. 
+  
+- To find anagrams of a word we will find all the words from the dictionary which have the same occurrence list. 
+  - group by 
+
+- Finding an anagram of a sentence is slightly more difficult. We will transform the sentence into its occurrence list, then try to extract any subset of characters from it to see if we can form any meaningful words. From the remaining characters we will solve the problem recursively and then combine all the meaningful words we have found with the recursive solution.
 
 

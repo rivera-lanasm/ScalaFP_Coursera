@@ -1889,3 +1889,9 @@ WARNING: Unmatched cancel notification for request id 15062
 2021.01.17 18:51:43 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
 2021.01.17 18:52:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
 2021.01.17 18:52:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
+2021.01.17 19:19:59 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[forcomp.Anagrams.Word]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 182, 182, 192)
+2021.01.17 19:20:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 19:20:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 19:21:18 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
+2021.01.17 19:40:02 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
