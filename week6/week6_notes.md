@@ -234,3 +234,16 @@ def showNumeral(symbol: String) = romanNumerals.get(symbol) match {
 
 **Fold left vs. concatenation**
 - FL more efficient
+
+
+
+#### ================================
+**Lecture 6.5: Telphone Numbers -> Sentences**
+#### ================================
+
+design method, `translate`, such that a given phone number, such as 7225247386, can be translated into corresponding sentence, pulled from a dictionary of words, such as "scala is fun"
+
+
+
+
+
