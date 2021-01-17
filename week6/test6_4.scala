@@ -32,15 +32,34 @@ object NumsToSentences {
     // 3) a map from digit strings; "5282" => List("Java", "Kata", "Lava"), if none return List(), like for "1111"
     val wordsForNum: Map[String, Seq[String]] = {
 
-        words groupBy (w => wordCode(w))
+        // default value to account for single num, like 7, that do not on their own map to any words in dict
+        words groupBy (w => wordCode(w)) withDefaultValue Seq()
 
         }
 
     // 4) return all ways to encode a number as a list of words 
     // num --> Set(List("hello", "mig"), List("hemig", "llo"))
     def encode(number: String): Set[List[String]] = {
+        //phrases instead of words
 
-        wordsForNum
+        // boundary case --> num is empty
+        if (number.isEmpty()) {
+            Set(List())
+        }
+        else {
+            for {
+                split <- 1 to number.length
+                // instead of a nested for loop! 
+                word <- wordsForNum(number take split)
+                rest <- encode(number drop split)
+                } yield word :: rest 
+            }.toSet
+
+        }
+    
+    def translate(number: String): Set[String] = {
+
+        encode(number) map (l => l.mkString(" "))
 
         }
 

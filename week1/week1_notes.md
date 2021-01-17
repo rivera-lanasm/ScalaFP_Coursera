@@ -57,7 +57,8 @@
 - [Scala Cheat Sheet](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md)
 - [Twitter Scala School](http://twitter.github.io/scala_school/)
 - [SO Questions](https://stackoverflow.com/tags/scala/info)
- 
+- Scala exercises 47 degrees 
+
 #### ========================
 **Lecture 1.1: Programming Paradigms:**
 #### ========================

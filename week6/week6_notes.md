@@ -238,10 +238,20 @@ def showNumeral(symbol: String) = romanNumerals.get(symbol) match {
 
 
 #### ================================
-**Lecture 6.5: Telphone Numbers -> Sentences**
+**Lecture 6.5: Apply Immutable Collections --> Telphone Numbers encode as Sentences**
 #### ================================
 
 design method, `translate`, such that a given phone number, such as 7225247386, can be translated into corresponding sentence, pulled from a dictionary of words, such as "scala is fun"
+
+
+#### ================================
+**Lecture 6.6: Conclusion; Further Questions**
+#### ================================
+
+- FP Program design principles
+- FP and mutable states: what does it mean to have mutable states in FP
+- Parallel and Distributed systems: explit immutability for parallel execution and distributed collections
+
 
 
 
