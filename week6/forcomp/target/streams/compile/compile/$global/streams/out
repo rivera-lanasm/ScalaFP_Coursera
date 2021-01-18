@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala:116:17: not found: value SortedMap[0m
+[0m[[0m[31merror[0m] [0m[0m    (y foldLeft SortedMap[Char,Int]() ++ x){ case (map, (ch, tm)) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala:117:22: Any does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      val newTm = map(ch) - tm[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala:118:27: value updated is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      if (newTm != 0) map updated (ch, newTm)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala:119:16: value - is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      else map - ch[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

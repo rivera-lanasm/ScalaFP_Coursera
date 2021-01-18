@@ -1895,3 +1895,237 @@ something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala
 2021.01.17 19:20:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
 2021.01.17 19:21:18 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/test/scala/patmat/HuffmanSuite.scala
 2021.01.17 19:40:02 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 20:47:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_1.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/test6_1.scala in List[Int]RangePosition(file:///root/ScalaFP_Coursera/week6/test6_1.scala, 70, 70, 79)
+2021.01.17 20:49:00 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 20:49:04 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 20:49:04 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 20:49:04 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 20:49:04 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 20:49:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:19 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 20:49:19 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:28 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:35 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:38 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 20:49:59 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 21:03:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:33:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:33:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:34:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:34:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:35:29 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:35:48 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:36:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 21:38:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:40:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:40:49 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:41:08 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:55:15 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:56:20 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:56:21 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 21:56:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:56:52 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:56:52 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:57:33 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:57:42 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:58:00 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:58:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:58:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:58:09 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.17 21:58:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 21:58:59 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.17 21:59:31 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 22:08:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 23:37:56 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 23:52:45 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 23:55:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 23:56:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.17 23:57:33 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 00:04:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 00:04:55 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:04:55 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:05:18 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:07:49 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:07:52 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:02 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:13 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:20 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:22 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:51 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:08:51 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:08:54 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:08:54 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:08:58 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:09:15 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:17 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:17 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:09:17 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:25 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:25 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:26 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:31 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:09:41 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:43 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:43 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:09:43 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:45 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:09:46 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:09:46 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:11:37 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:11:40 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:11:57 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:17:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:20:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:20:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:20:58 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:20:58 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:20:58 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:20:58 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:20:58 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:27:36 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:28:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:30:20 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:31:47 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:32:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:33:00 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:33:03 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:33:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:34:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:34:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:36:14 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:36:15 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:36:15 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:36:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:36:38 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:37:33 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:37:33 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:37:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:37:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:37:34 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:37:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:38:29 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:38:30 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:40:52 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:41:25 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:41:35 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:42:10 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:42:19 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:42:47 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:42:59 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:43:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:43:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:43:53 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:44:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:45:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:45:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:46:57 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:48:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
+2021.01.18 00:48:29 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
+2021.01.18 00:48:38 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
+2021.01.18 00:48:42 WARN  no build target for: /root/ScalaFP_Coursera/week6/test6_4.scala
+2021.01.18 00:48:55 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:49:57 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:49:59 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:50:29 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:52:01 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:52:12 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:52:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:53:38 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:54:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:55:16 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 00:55:51 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:56:09 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:56:37 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 00:56:44 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 01:15:45 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Jan 18, 2021 1:57:24 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Jan 18, 2021 1:57:25 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Jan 18, 2021 1:57:34 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Jan 18, 2021 1:57:36 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2021.01.18 01:57:37 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 02:02:39 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 02:03:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:34:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:34 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:44 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:44 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:44 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:34:56 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:34:57 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:34:57 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:01 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:01 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:03 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:03 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:35:03 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:06 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:06 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:06 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:35:07 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:35:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:35:40 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:37:16 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:38:09 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:38:18 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:38:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:43:54 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:45:02 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 04:45:07 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3455)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3448)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[<error>]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3449)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3451)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3451)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3451)
+2021.01.18 04:47:17 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3452)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[Char]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3441, 3441, 3452)
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in (Char, <error>)RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 3446, 3446, 3461)
+2021.01.18 04:47:23 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:56:40 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 04:57:21 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:01:19 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:01:32 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 05:01:42 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 05:04:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:05:41 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:05:59 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:06:01 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:06:10 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:06:18 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 05:06:21 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 05:06:27 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+2021.01.18 05:09:50 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:11:11 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:11:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:11:35 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:11:39 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+something's wrong: no file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[forcomp.Anagrams.Word]RangePosition(file:///root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 219, 219, 229)
+2021.01.18 05:15:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:15:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:15:13 WARN  no build tool detected in workspace '/root/ScalaFP_Coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.18 05:15:40 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:16:24 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:18:10 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:18:14 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+2021.01.18 05:18:40 WARN  no build target for: /root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala
+2021.01.18 05:18:58 WARN  no build target for: /root/ScalaFP_Coursera/week6/forcomp/src/main/scala/forcomp/Anagrams.scala

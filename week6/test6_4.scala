@@ -43,7 +43,7 @@ object NumsToSentences {
         //phrases instead of words
 
         // boundary case --> num is empty
-        if (number.isEmpty()) {
+        if (number.isEmpty() ) {
             Set(List())
         }
         else {
