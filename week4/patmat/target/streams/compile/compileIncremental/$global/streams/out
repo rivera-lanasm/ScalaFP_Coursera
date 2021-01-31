@@ -17,7 +17,7 @@
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /root/ScalaFP_Coursera/week4/patmat/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 76f514c7 for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 142b99b7 for Scala compiler version 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
@@ -25,7 +25,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/root/ScalaFP_Coursera/week4/patmat/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.392265361 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.658297581 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m

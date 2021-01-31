@@ -73,10 +73,11 @@ object Anagrams extends AnagramsInterface {
 
   /** Returns all the anagrams of a given word. */
   def wordAnagrams(word: Word): List[Word] = {
-
-    (this.dictionaryByOccurrences withDefaultValue( (wordOccurrences(word), Nil) )) get wordOccurrences(word)
-
+  
+    this.dictionaryByOccurrences getOrElse (wordOccurrences(word), Nil)
+  
     }
+
 
   /** Returns the list of all subsets of the occurrence list.
    *  This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
@@ -100,16 +101,18 @@ object Anagrams extends AnagramsInterface {
    *  Note that the order of the occurrence list subsets does not matter -- the subsets
    *  in the example above could have been displayed in some other order.
    */
-  def combinations(occurrences: Occurrences): List[Occurrences] = 
-    (occurrences foldRight List[Occurrences](Nil)) { 
+  def combinations(occurrences: Occurrences): List[Occurrences] =
+  
+    (occurrences foldRight List[Occurrences](Nil)) {
         // input format of fold Right
         case ((char_inst,times), acc) => {
-            acc ++ ( for { comb <- acc; 
-                           n <- 1 to times 
+            acc ++ ( for { comb <- acc;
+                            n <- 1 to times
                           } yield (char_inst, n) :: comb ) // pre-pend comb
             
-                    } 
-    }
+                    }
+      }
+
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
    *
@@ -122,15 +125,16 @@ object Anagrams extends AnagramsInterface {
    *  and has no zero-entries.
    */
   def subtract(x: Occurrences, y: Occurrences): Occurrences = {
-    val x_sorted = SortedMap[Char,Int]() ++ x // sorted by key 
-    (y foldLeft x_sorted){ 
+    val x_sorted = SortedMap[Char,Int]() ++ x // sorted by key
+    (y foldLeft x_sorted){
                 case (y_map, (ch, tm)) => {
                     val new_TreeMap = y_map(ch) - tm
-                    if (newTm != 0) y_map updated (ch, new_TreeMap)
+                    if (new_TreeMap != 0) y_map updated (ch, new_TreeMap)
                     else y_map - ch // remove key from map
-                    } 
+                    }
                 }.toList
   }
+
 
   /** Returns a list of all anagram sentences of the given sentence.
    *

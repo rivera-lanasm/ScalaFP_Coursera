@@ -50,7 +50,18 @@ class HuffmanSuite {
     assertEquals(List(Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), Leaf('x',4)), combine(leaflist))
   }
 
-  @Ignore("not ready yet")
+  //@Ignore("not ready yet")
+  @Test def `test decode`: Unit =
+    new TestTrees {
+      assertEquals("ababa".toList, decode(t1, List(0,1,0,1,0)))
+    }
+
+  @Test def `test encode`: Unit =
+    new TestTrees {
+      assertEquals(List(0,1,0,1,0), encode(t1)("ababa".toList))
+    }
+
+  //@Ignore("not ready yet")
   @Test def `decode and encode a very short text should be identity (10pts)`: Unit =
     new TestTrees {
       assertEquals("ab".toList, decode(t1, encode(t1)("ab".toList)))

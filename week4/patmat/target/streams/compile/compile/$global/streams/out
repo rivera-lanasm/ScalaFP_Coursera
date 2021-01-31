@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala:145:52: value weight is not a member of patmat.CodeTree[0m
-[0m[[0m[31merror[0m] [0m[0m      val new_treeSpan = trees drop 2 span (x => x.weight < newFork.weight)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/ScalaFP_Coursera/week4/patmat/src/main/scala/patmat/Huffman.scala:276:89: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Huffman.this.Bit][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m  def codeBits(table: CodeTable)(char: Char): List[Bit] = {table.toMap.get(char).foreach(i => i) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
