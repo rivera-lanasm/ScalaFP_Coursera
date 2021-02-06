@@ -1,16 +1,30 @@
+
+The following series of notes and related resources were compiled while taking Martin Odersky's Coursera course, [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome). 
+
+I plan to use these as a reference for myself, to review concepts and examples from the course in the future. Also plan to further elaborate on external links I include here. 
+
+- Week 1: 
+- Week 2: 
+- Week 3: 
+- Week 4: 
+- Week 5: 
+- Week 6: 
+
 ### Week 1 Outline: Getting Started + Functions & Evaluation
- 
+
 ### Why Scala?
-**Concurrency and Parallelism**, see [Working Hard to Keep It Simple, 2011]()
+**Concurrency and Parallelism**, see [Working Hard to Keep It Simple, 2011](https://www.youtube.com/watch?v=3jg1AheF4n0)
 - **Parallel** programming executes programs faster on parallel hardware
    - Programs could just as simply run sequentially, but take advantage of specific hardware for speed
    - **Concurrent** programming manages concurrent execution threads explicitly
    - Why are both difficult?
        - **Non-determinism** caused by concurrent threads accessing **shared mutable state**
-       - ```var x = 0
+       - ```
+            var x = 0
             async {x = x+1}
             async {x = x*2}
-            //can yield 0, 1, or 2```
+            //can yield 0, 1, or 2
+            ```
        - to get deterministic processing, we must avoid the mutable state
        - Avoiding the mutable state means programming functionally
  
@@ -24,14 +38,13 @@
 - Concurrency:
    - Actors, Software transactional memory, Futures --> **Akka**
  
-### SBT Tutorial
+### SBT:
 - [guide to using SBT](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md)
-- https://www.youtube.com/watch?v=PDhOv4NMK-Y
- 
-**Some SBT Commands:**
-- you can start the Scala interpreter inside sbt using the `console` task
-- you can run a main object with `run`
-- you can run test suite, with the `test` command
+- [SBT for Scala development](https://www.youtube.com/watch?v=PDhOv4NMK-Y)
+  - 
+  - you can start the Scala interpreter inside sbt using the `console` task
+  - you can run a main object with `run`
+  - you can run test suite, with the `test` command
  
 **SBT Project Directory:**
 - **Base or project's root directory:**
@@ -44,9 +57,9 @@
 **Source Files, Classfiles and the JVM**
 - [How Java Works](https://www.cs.cmu.edu/~jcarroll/15-100-s05/supps/basics/history.html)
 - [Scala and JVM](https://www.toptal.com/scala/scala-bytecode-and-the-jvm#decompiling-class-files-with-javap)
-- Scala source code is stored in text files with the extension .scala
-- The scala compiler compiles .scala source files to .class files
-- Classfiles are binary files containing machine code for the Java Virtual Machine and are stored to `classpath`
+  - Scala source code is stored in text files with the extension .scala
+  - The scala compiler compiles .scala source files to .class files
+  - Classfiles are binary files containing machine code for the Java Virtual Machine and are stored to `classpath`
  
 **Testing with JUnit**
 - [JUnit and Scala](https://medium.com/@alonso.delarte/testing-scala-with-junit-a79bc2d1bb4c)
@@ -63,23 +76,27 @@
 **Lecture 1.1: Programming Paradigms:**
 #### ========================
  
-A paradigm describes distinct concepts or though patterns
-main programming paradigms:
+A paradigm describes distinct concepts or thought patterns
 - imperative
 - functional
 - logical
 - OO: orthogonal to previous 3, in that it can be combined with these paradigms
  
-Imperative:
+**Imperative:**
 - modifying mutable variables
 - using assigments
 - using control structures (if-then-else, loops, break, return)
-- Imperative programs udnerstood as instruction sequences for a **Von Neumann** computer
-   - Processor <--- Bus (fixed size) ----> Memory
-   - mutable variables, variable dereferences and assignments, and cntrol sturctures all acan be mapped to aspects of the Von Neumann computer
+- Imperative programs understood as instruction sequences for a **Von Neumann** architecture
+  - [Von Neumann Architecture](https://www.youtube.com/watch?v=H0xGKKpKaRE) 
+  - CPU (Datapath and Control FSM), Main Memory, and I/O 
+  - mutable variables, variable de-references and assignments, and control sturctures all can be mapped to aspects of the Von Neumann computer
  
-Pure imperative programming is limited by the **Von Neumann bottleneck** whereby "One tends to conceptualize dta strutures word-by-word
-- need **techniques** for defining high level abstractions and **theories** for these higher level abstractions in order to reason about them
+
+**Correspondance Between Imperative Prog. and VN Architecture**
+- Pure imperative programming is limited by the **Von Neumann bottleneck**, coined by Backus, whereby one tends to conceptualize data strutures "word-by-word"
+- There is a strong correspondance between mutable variables and memory cells, variable dereferences and load instructions, variable assignments and store instructions, control structures and jumps.
+
+Need **techniques** for defining high level abstractions and **theories** for these higher level abstractions in order to reason about them
 - Theory consists of:
    - one or more data tyes
    - operations on these types
@@ -87,13 +104,23 @@ Pure imperative programming is limited by the **Von Neumann bottleneck** whereby
 - Theories do not account for mutation
    - theory of polynomials defines the sum of polynomials for any degree, but does NOT define an mutation operator to change a coeffiecient while keeping the polnomial the same
 - Consequences for programming:
-   - if we want to implement high level concepts following theirmathematical theories no place for mutation
+   - if we want to implement high level concepts following mathematical theories, no place for mutation
    - Therefore, focus on defining theories for operators expressed as functions, avoid mutations, define ways to abstract and compose functions
- 
-Functional Programming:
+
+
+- John Backus' 1977 Turning Award lecture, [Can Programming be LIberated from the von Neumann Style? A Functional Style and its Algebra of Programs](https://medium.com/luteceo-software-chemistry/can-programming-be-liberated-from-the-von-neumann-style-932ba107402b)
+- A bigger topic than what I can address here
+- [Does FP actually address VN Bottleneck?](https://stackoverflow.com/questions/48674498/does-functional-programming-reduce-the-von-neumann-bottleneck)
+
+**Functional Programming:**
 - **restricted sense:** FP means programming without mutable vars, assignments, loops, and other imperative control structues
 - **wider sense (Scala):** FP means focuseing on the functions --> for example, functions can be values that are prduced, consumed, and compsued (**first-class citizens**)
  
+**Why FP Matters, John Hughes**
+- [Paper]()
+- [Keynote 2017, ]()
+
+
 #### ========================
 **Lecture 1.2: Elements of Programming**
 #### ========================
@@ -109,8 +136,9 @@ Functional Programming:
 - first evaluate all function arguments (l to r),
 - then replace the function application with the function's rhs,
 - and at the same time, replace formal params of the function by the actual arguments
+  
 ```
-// call by value (CBV) implementation --> NAMES < ARGS
+// call by value (CBV) implementation --> NAMES after ARGS
 sumOfSquares(3,2+2)
 sumOfSquares(3,4)
 square(3) + square(4)
@@ -119,16 +147,15 @@ square(3) + square(4)
 25
 ```
 - this **substituion model** is formalized in the lambda calculus, which is foundation of FP
-   - Alonzo Church
-   - Why functional programming matters, John Hughes (link to article)
-- Note that this model cannot express operators with **side effects**
+  - Alonzo Church
+  - Note that this model cannot express operators with **side effects**
  
 **Termination**
 - not every expression reduces to a value (in an infinite number of steps)
 - Note an alternative evaluation strategy for SumofSquares: **call by name, CBN**
 - CBN is another implementation of substitution model
 ```
-// CBN --> NAMES > ARGS
+// CBN --> NAMES before ARGS
 sumOfSquares(3,2+2)
 square(3) + square(2+2)
 3*3 + square(2+2)
@@ -138,9 +165,9 @@ square(3) + square(2+2)
 9 + 4 * 4
 25
 ```
-- **Both strategies reduce to the same final value if:**
-   - reduced expressions consist of pure functions
-   - both evals terminate
+**Both strategies reduce to the same final value if:**
+  - reduced expressions consist of pure functions
+  - both evals terminate
 - CBV has advantage that it evaluates every function arg only Once
 - CBN adv that a function arg is not evluated if the corresponding param is unused in the eval of the function body
  
@@ -196,7 +223,7 @@ test(3+4,2*4)
 **Theorem:** If CBV eval of an expr, e, terminates, **then CBN eval of e terminates as well**
 - **the opposite is not necessarily true**
  
-**Example:** `def first(x: Int, y: Int) = x
+**Example:**: `def first(x: Int, y: Int) = x`
  
 **Scala's eval strategy:**
 - Scala normally uses **CBV**
@@ -281,13 +308,7 @@ def sqrt(x: Double): Double = {
 #### ========================
 **Lecture 1.7: Tail Recursion**
 #### ========================
- 
-**Notation for Substitution**
-- `def f(x1,...,xn)= B; ... f(v1, ..., vn)`
-- ==> `def f(x1,...,xn)= B; ... [v1/x1, ..., vn/xn]B`
-- `[v1/x1, ..., vn/xn]B` refers to the expresion, B, wherein all occurences of xi have been replaced by vi
-   - this notation is called **substitution**
- 
+  
 [JVM Stacks and Stack Frames](http://alvinalexander.com/scala/fp-book/recursion-jvm-stacks-stack-frames/)
 - **Stack definition:** Each JVM thread has a private Java virtual machine stack, created at the same time as the thread. A JVM stack stores frames, also called “stack frames”...it holds local variables and partial results, and plays a part in method invocation and return
 - When a new thread is launched, the JVM creates a new stack for the thread. A Java stack stores a thread’s state in discrete frames. The JVM only performs two operations directly on Java stacks: it pushes and pops frames.
@@ -344,50 +365,5 @@ def factorial(n: Int) : Int = {
  
 #### ========================
 **Exercises: Recursion**
-#### ========================
- 
-```
- 
- /**
-  * Exercise 1
-  */
- def pascal(c: Int, r: Int): Int =
-   if (c == r || c ==0) 1 else pascal(c-1, r-1) + pascal(c,r-1)
- 
- /**
-  * Exercise 2
-  */
- def balance(chars: List[Char]): Boolean = {
-   val criteria: Int = 0
-   def balance_track(chars: List[Char], criteria: Int): Boolean = {
-     if (criteria < 0) {
-       false
-     }
-     else if (chars.isEmpty) {
-       criteria == 0
-     } else if (!(List(')','(').contains(chars.head))) {
-       balance_track(chars.tail, criteria)
-     } else if (chars.head == '(') {
-       balance_track(chars.tail, criteria + 1)
-     } else {
-       balance_track(chars.tail, criteria - 1)
-     }
-  
-   }
-   balance_track(chars = chars, criteria = criteria)
- }
- 
- /**
-  * Exercise 3
-  */
- def countChange(money: Int, coins: List[Int]): Int = {
-   if (money==0) {
-     1
-   } else if (money>0 && !coins.isEmpty){
-     countChange(money-coins.head, coins) + countChange(money,coins.tail)
-   } else {
-     0 }
- }
- 
-```
+- code for pascal, ...
 
