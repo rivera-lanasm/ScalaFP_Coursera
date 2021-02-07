@@ -10,7 +10,7 @@ I plan to use these as a reference for myself, to review concepts and examples f
 - Week 5: 
 - Week 6: 
 
-### Week 1 Outline: Getting Started + Functions & Evaluation
+## Week 1 Outline: Getting Started + Functions & Evaluation
 
 ### Why Scala?
 **Concurrency and Parallelism**, see [Working Hard to Keep It Simple, 2011](https://www.youtube.com/watch?v=3jg1AheF4n0)
@@ -38,13 +38,11 @@ I plan to use these as a reference for myself, to review concepts and examples f
 - Concurrency:
    - Actors, Software transactional memory, Futures --> **Akka**
  
-### SBT:
+
+### SBT: Simple Build Tool
+**Some resources**
 - [guide to using SBT](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md)
-- [SBT for Scala development](https://www.youtube.com/watch?v=PDhOv4NMK-Y)
-  - 
-  - you can start the Scala interpreter inside sbt using the `console` task
-  - you can run a main object with `run`
-  - you can run test suite, with the `test` command
+- [sbt for Scala development](https://www.youtube.com/watch?v=PDhOv4NMK-Y)
  
 **SBT Project Directory:**
 - **Base or project's root directory:**
@@ -54,15 +52,12 @@ I plan to use these as a reference for myself, to review concepts and examples f
    - another build inside your build, which knows how to build your build.
    - To distinguish the builds, we sometimes use the term proper build to refer to your build, and meta-build to refer to the build in project
  
-**Source Files, Classfiles and the JVM**
+### Source Files, Classfiles and the JVM
 - [How Java Works](https://www.cs.cmu.edu/~jcarroll/15-100-s05/supps/basics/history.html)
 - [Scala and JVM](https://www.toptal.com/scala/scala-bytecode-and-the-jvm#decompiling-class-files-with-javap)
   - Scala source code is stored in text files with the extension .scala
   - The scala compiler compiles .scala source files to .class files
   - Classfiles are binary files containing machine code for the Java Virtual Machine and are stored to `classpath`
- 
-**Testing with JUnit**
-- [JUnit and Scala](https://medium.com/@alonso.delarte/testing-scala-with-junit-a79bc2d1bb4c)
  
 **Scala Language Notes and Resources**
 - [avoid using return in functions](https://tpolecat.github.io/2014/05/09/return.html)
@@ -71,10 +66,10 @@ I plan to use these as a reference for myself, to review concepts and examples f
 - [Twitter Scala School](http://twitter.github.io/scala_school/)
 - [SO Questions](https://stackoverflow.com/tags/scala/info)
 - Scala exercises 47 degrees 
+- [JUnit and Scala](https://medium.com/@alonso.delarte/testing-scala-with-junit-a79bc2d1bb4c)
+- [Scala Basics](https://www.baeldung.com/scala/category/scala-basics)
 
-#### ========================
-**Lecture 1.1: Programming Paradigms:**
-#### ========================
+### Lecture 1.1: Programming Paradigms:
  
 A paradigm describes distinct concepts or thought patterns
 - imperative
@@ -110,33 +105,27 @@ Need **techniques** for defining high level abstractions and **theories** for th
 
 - John Backus' 1977 Turning Award lecture, [Can Programming be LIberated from the von Neumann Style? A Functional Style and its Algebra of Programs](https://medium.com/luteceo-software-chemistry/can-programming-be-liberated-from-the-von-neumann-style-932ba107402b)
 - A bigger topic than what I can address here
-- [Does FP actually address VN Bottleneck?](https://stackoverflow.com/questions/48674498/does-functional-programming-reduce-the-von-neumann-bottleneck)
+  - [Does FP actually address VN Bottleneck?](https://stackoverflow.com/questions/48674498/does-functional-programming-reduce-the-von-neumann-bottleneck)
 
 **Functional Programming:**
 - **restricted sense:** FP means programming without mutable vars, assignments, loops, and other imperative control structues
 - **wider sense (Scala):** FP means focuseing on the functions --> for example, functions can be values that are prduced, consumed, and compsued (**first-class citizens**)
  
 **Why FP Matters, John Hughes**
-- [Paper]()
-- [Keynote 2017, ]()
+- [Paper](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+- [Keynote Lambda Days 2017, ](https://www.youtube.com/watch?v=1qBHf8DrWR8&t=61s)
+- [Lambda Calculus](https://arxiv.org/pdf/1503.09060.pdf)
 
 
-#### ========================
-**Lecture 1.2: Elements of Programming**
-#### ========================
+### Lecture 1.2: Elements of Programming
  
-**Operator Evaluation pattern:**
+**Operator Evaluation Pattern:**
 - take leftmost operator, then evaluate its operands (l before r), and finally apply the operator to the operands
-- a name is evaluated by replacing it with the right hand side of its def
-- the eval process stops once it results in a **value**
+  - `(1+2) + (6+7) --> (3) + (13) --> 16`
+- a name is evaluated by replacing it with the right hand side of its definition
+- the eval process stops once it results in a **value**, rather than another function evaluation
    - for the moment, consider a value to be a number
- 
-**Function Evaluation pattern: Substitution Model**
-- similar to operators
-- first evaluate all function arguments (l to r),
-- then replace the function application with the function's rhs,
-- and at the same time, replace formal params of the function by the actual arguments
-  
+- **Substitution Model** or **Call by Value**   
 ```
 // call by value (CBV) implementation --> NAMES after ARGS
 sumOfSquares(3,2+2)
@@ -146,13 +135,14 @@ square(3) + square(4)
 9 + 16
 25
 ```
-- this **substituion model** is formalized in the lambda calculus, which is foundation of FP
-  - Alonzo Church
+- this **substituion model** is formalized in the lambda calculus
   - Note that this model cannot express operators with **side effects**
  
 **Termination**
 - not every expression reduces to a value (in an infinite number of steps)
-- Note an alternative evaluation strategy for SumofSquares: **call by name, CBN**
+
+Note an alternative evaluation strategy for SumofSquares: 
+**Call by Name, CBN**
 - CBN is another implementation of substitution model
 ```
 // CBN --> NAMES before ARGS
@@ -169,21 +159,12 @@ square(3) + square(2+2)
   - reduced expressions consist of pure functions
   - both evals terminate
 - CBV has advantage that it evaluates every function arg only Once
-- CBN adv that a function arg is not evluated if the corresponding param is unused in the eval of the function body
+- CBN has advantage that a function arg is not evluated if the corresponding param is unused in the eval of the function body
  
 **Examples**
 ```
 def test(x:Int, y:Int) = x * x
- 
-CBV
-test(2,3)
-2*2
-4
- 
-CBN
-test(2,3)
-2*2
-4
+
 =================
 CBV
 test(3+4,8)
@@ -213,9 +194,7 @@ test(3+4,2*4)
 49
 ```
  
-#### ========================
-**Lecture 1.3: Eval strategies and Termination**
-#### ========================
+### Lecture 1.3: Eval strategies and Termination:
  
 **CBV, CBN, and termination**
 - what if termination is not guaranteed?
@@ -223,8 +202,14 @@ test(3+4,2*4)
 **Theorem:** If CBV eval of an expr, e, terminates, **then CBN eval of e terminates as well**
 - **the opposite is not necessarily true**
  
-**Example:**: `def first(x: Int, y: Int) = x`
- 
+**Example:** 
+- `def first(x: Int, y: Int) = x`
+- `def loop() = loop --> an inf loop`
+- if `first(2,loop)` is called **using CBN**, the function will evaluate, as the second parameter, y, is not invoked in the function definition and thus never evaluated by CBN.
+- CBV, however, evaluates expressions as soon as they are encountered rather than waiting to see if they will be invoked in function definition. 
+- CBV attempt to evaluate value passed to `y`, and enters inf loop
+
+
 **Scala's eval strategy:**
 - Scala normally uses **CBV**
    - if the type of a function parameter stars with =>, it uses CBN
@@ -232,43 +217,34 @@ test(3+4,2*4)
 - In practice, CBV is often exponentially faster
    - Also plays nicer with imperative effects and side effects
  
- 
-#### ========================
-**Lecture 1.4: Conditionals and Value Definitions**
-#### ========================
- 
+ **Evaluation Strategy Resources**
+ - [Baeldung](https://www.baeldung.com/scala/parameters-by-value-by-name)
+ - 
+
+### Lecture 1.4: Conditionals and Value Definitions:
+
 **Conditional Expression**
 - `if-else` is an expression, not a statement
-- `def abs(x: INt) = if (x>=0) x else -x`
+- `def abs(x: Int) = if (x>=0) x else -x`
  
 **Value Definition**
 - we saw that **function parameters** can be passed by value or by name
 - the `def` form is "by-name", its rhs is evaluated on each use (invocation)
 - `val` is "by value"
-   - `val y = square(x)`, the rhs of a val def is evaluated **At the point of the definition itself**
-   - val y refers to 4, not square(2)
-- Note that `def loop: Boolean = loop` evaluates, but `val x = loop` **does not**
-```
-def and(x: Boolean, y: => Boolean) = if (x) y else false
-and(false, loop)
-   res0: Boolean = false
-```
+- `val y = square(x)`, the rhs of a val def is evaluated **At the point of the definition itself**
+ - val y refers to 4, not square(2)
+- Note that `def loop: Boolean = loop` evaluates, but `val x = loop` **does not --> inf loop**
  
- 
-#### ========================
-**Lecture 1.5: Square Roots with Newton's Method**
-#### ========================
- 
+### Lecture 1.5/1.6: Blocks and Lexical Scope 
 **Newton's Method**
 - achieve estimate of square root by successive approximations
  
-**Scala, Iterative Implementation**
-- note that only recursive functions **require** an explicit return type in Scala
+**Fixed Point Iterative Implementation Newton's Method**
 ```
  
 def isGoodEnough(guess: Double, x: Double): Boolean = {
-   //abs(guess*guess - x) < .001
-   // account for very large and very small values
+   //abs(guess*guess - x) < .001 // the absolute error
+   // relative error accounts for very large and very small values
    abs(guess*guess - x)/x < .001
   
 }
@@ -278,6 +254,7 @@ def improve(guess: Double, x: Double): Double = {
 }
  
 def sqrtIter(guess:Double, x: Double): Double = {
+   // note that only recursive functions require an explicit return type in Scala
    if (isGoodEnough(guess, x)) x)
    else sqrtIter(improve(guess,x),x)
 }
@@ -287,11 +264,7 @@ def sqrt(x: Double): Double = {
    sqrtIter(1.0, x)
 }
 ```
- 
-#### ========================
-**Lecture 1.6: Blocks and Lexical Scope**
-#### ========================
- 
+
 **Avoid name-space pollution**
 - nested functions; nest `improve`, `isGoodEnough` functions inside the `sqrtIter() def`
 - Note that values defined within the scope of the function is visible to any nested functions
@@ -304,10 +277,8 @@ def sqrt(x: Double): Double = {
 - Blocks are themselves expressions
 - Note that values defined in the block are only visible within the block, and that values in the name space are visible in the block **unless** they are shadowed (overwrite)
  
- 
-#### ========================
-**Lecture 1.7: Tail Recursion**
-#### ========================
+
+### Lecture 1.7: Tail Recursion
   
 [JVM Stacks and Stack Frames](http://alvinalexander.com/scala/fp-book/recursion-jvm-stacks-stack-frames/)
 - **Stack definition:** Each JVM thread has a private Java virtual machine stack, created at the same time as the thread. A JVM stack stores frames, also called “stack frames”...it holds local variables and partial results, and plays a part in method invocation and return
