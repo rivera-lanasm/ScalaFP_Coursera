@@ -289,34 +289,16 @@ def sqrt(x: Double): Double = {
  
 [Tail Recursion](https://alvinalexander.com/scala/fp-book/tail-recursive-algorithms/)
 - A tail-recursive function is just a function whose very last action is a call to itself (or another function)
-- "When you write your recursive function in this way, the Scala compiler can optimize the resulting JVM bytecode so that the function requires only one stack frame — as opposed to one stack frame for each level of recursion!"
+- "When you write your recursive function in this way, the Scala compiler can optimize the resulting JVM bytecode so that the function requires only **one stack frame** — as opposed to one stack frame for each level of recursion!"
 - Reuses stack frame, avoids stack overflow in functions susceptible to deep recursive chains
    - equivalent to a **loop** in an imperative program
    - remember to avoid premature optimization
   
 **Pattern to make recursive function tail-recursive:**
-   - nest original function in a new function
-   - insert "accumulator" object into super function
-   - modify the nested function to utilize accumulator
-- A way to prove that sum isn’t tail-recursive is to tag the function with a Scala annotation named @tailrec. This annotation won’t compile unless the function is tail-recursive.
- 
- 
-**Consider GCD**
-```
-def gcd(a: Int, b: Int): Int = {
- 
-   if (b==0) a else gcd(b, a % b)
-}
- 
-// note the interchangeing of arguments a and b, and the fact that the final action is a call to itself
- 
-gcd(14, 21) ==>
-gcd(21,14)
-gcd(14,7)
-gcd(7,7)
-gcd(7,0)
-7
-```
+- nest original function in a new function
+- insert "accumulator" object into super function
+- modify the nested function to utilize accumulator
+  - A way to prove that sum isn’t tail-recursive is to tag the function with a Scala annotation named @tailrec. This annotation won’t compile unless the function is tail-recursive.
  
 **Consider Factorial**
 ```
@@ -324,6 +306,7 @@ def factorial_nonTR(n: Int) : Int = {
    if (n == 0) 1 else n*factorial_nonTR(n-1)
 }
  
+// Tail Recursive
 def factorial(n: Int) : Int = {
  
    def factorial_Acc(n:Int, acc:Int): Int = {
@@ -336,5 +319,7 @@ def factorial(n: Int) : Int = {
  
 #### ========================
 **Exercises: Recursion**
-- code for pascal, ...
+- [Link to week 1 code](https://github.com/rivera-lanasm/ScalaFP_Coursera/blob/master/week1/recfun/src/main/scala/recfun/RecFun.scala)
+
+
 
